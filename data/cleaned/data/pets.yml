@@ -1,0 +1,929 @@
+---
+- name: Chewie
+  picture: chewie.jpg
+  human: Richard Allan
+  story: Meet Chewie, the golden-curled mastermind of mischief! This charismatic goldendoodle has perfected the art of being adorably troublesome. Chewie is part comedian, part athlete, and 100% loveable rogue who believes life is just one big game of fetch waiting to happen.
+- name: Snickers
+  picture: snickers.jpg
+  human: Todd Kyle
+  story: This is Snickers, the 8lb Cavapoo. She is a cute little furball that loves to play and be patted! She enjoys lounging in my office while I work, but especially loves our walks in the woods!
+- name: Pablo
+  picture: pablo.png
+  human: Itzik Gan-Baruch
+  story: Pablo is a super friendly Lab mix who thinks every day is the best day ever! Itzik saved him when he was tiny, and now Pablo is the happiest dog in Rosh HaAyin. He loves running around the forest near his house and thinks the dog park is basically Disney World for dogs. Pablo is still learning not to nibble on everything (including people), but he is just so excited about life that his tail never stops wagging!
+- name: Lucky
+  picture: lucky.jpg
+  human: Keith Mattes
+  story: This is Lucky, the 32lb mini Bernadoodle with a bark bigger than his smile and love for walks and his hoo-mans! Lucky also shares a passsion for making beds! If by making you mean getting underneath everything and pretending he's in a cave or tunnel, then you are correct! When he's not working on his linen-game, he's loafing behind his dad in an oversized pillow in the sun :)
+- name: Turk Turk
+  picture: turkturk.png
+  human: Lauren Barker
+  story: Turk Turk will make you tremble in your boots if you set foot in his yard. Moving faster than the unsuspecting elephant seal, he will bolt from underneath the apple tree when your snagging the forbidden avocados in a flying waddle with talons out. It's moments like these you question the decisions that got you here. You've been warned. Don't mess with Turk Turk or his avocados on E st.
+- name: Lady Pug
+  picture: ladypug.png
+  human: Davis Bickford
+  story: Lady Pug is a sweet girl who loves treats, naps and cuddles. She's a world-class sprinter, and was <a href="https://www.reddit.com/r/aww/comments/3pjmox/pugs_first_time_at_the_dog_park/"> famous for a day</a> because she's such a fast pug. She will sit on your lap, you really don't have a choice in this.
+- name: Idgie
+  picture: idgiepug.png
+  human: Davis Bickford
+  story: Idgie is a pug / american bulldog mix who loves playing with toys, eating leaves, and cuddling on laps. She's especially skillful at spinning in circles, annoying her sister pug, Lady, and scaring away squirrels who didn't do anything remotely deserving of her sassy 'tude.
+- name: Daphne Conrad
+  picture: daphne.jpg
+  human: Justin Conrad
+  story: Daphne is a cavachon who lives in Cork, Ireland. Daphne loves nothing more than eating - especially salmon, meatballs & spaghetti! She passes her time chasing birds in the garden, barking at the neighbours dog & lounging in front of the stove.
+- name: Roscoe and Nikita
+  picture: nikitaandroscoe.jpeg
+  human: Aleesha Dawson
+  story: Nikita is a husky who adopted Aleesha as her human in 2010 when Nikita was just 11 weeks old and Aleesha was just 18 years old. She is the laziest, chillest husky you will ever met. She likes to chase birds and rabbits and weirdly loves sunbathing. Roscoe adopted Aleesha and her husband Eric in 2015. He is a ball of anxiety, and loves his sister and parents very much. He likes to sleep on his back and bark non-stop.
+- name: Cleo and Oskar
+  picture: oskarandcleo.jpeg
+  human: Aleesha Dawson
+  story: Oskar adopted his humans Aleesha and Eric in 2018 when he was just a couple months old. He likes opening and closing doors, drinking from faucets, and looking at you like he's really angry. Cleo joined the family in 2021 at just a few months old. She likes running around the house, sleeping in anyone else's bed, eating, trying to run outside, and just being a general trouble maker.
+- name: Hagrid
+  picture: hagrid.jpg
+  human: Jason Shippee
+  story: Hagrid is a big floofy gentle giant Sheepadood who joined our family in 2020 at the beginning of Covid. His best friend is his little brother (Human), who's only 1 year younger than him. He likes playing paper, rock, scissors (he always goes with paper), playing sneak and being a good boy offleash at all the parks and trails.
+- name: CC
+  picture: cc.jpg
+  human: Chris Stone
+  story: CC (Chris's Cat) adopted us when we were living in London. She used to stop by every day and I guess we grew on her so she decided to stay! A bit of a nutcase but then most Calicos are I'm told!
+- name: Tuna
+  picture: tuna.jpg
+  human: Tiffany Rea
+  story: Highly skilled stuffed mouse hunter, laser point chaser, butt wiggler, but most of all a very gentle, well-mannered little kitty. Loves food, treats, pets and napping. Yet does not beg for food nor pets, but will sit patiently and stare deep into your soul until you decide to do the right thing - with cheesecake being an exception!
+- name: Fibi
+  picture: fibi.jpg
+  human: Martin Berka
+  story: Fibi is a mix of Labrador and Poodle - a Labradoodle. She has all the positive qualities of these two breeds, is very child and family friendly and has become an important part of the family. In addition to attention, she also needs regular walks and thus forces us in a positive way to go out in all wind and weather, to take breaks from work which is very important especially with a 100% home office job!
+- name: Charley
+  picture: charley.jpg
+  human: Sandra Gittlen
+  story: Charley is the sweetest chocolate Lab around and loves her sniffaris around the neighborhood.
+- name: Aurora
+  picture: aurora.jpg
+  human: Pavel Shutsin
+  story: Aurora is a Scottish cat who owns 2 human pets. As any good master she is constantly somewhere nearby to help her human pets with finishing tuna steak or defend against pesky birds. Aurora as her name stands for is the first thingy you'll see in the morning in her house.
+- name: Bruno
+  picture: bruno.jpg
+  human: Mario Mora
+  story: Without knowing if it is actually a bull or a dog, Bruno enjoys to take its human for a walk every couple of days or so. He also likes to play with its plastic ball and loves to catch it on the fly. While very protective at home; he is friendly with anyone that is outside the house and enjoys to be pet by anyone.
+- name: Ripley
+  picture: ripleyjr.png
+  human: Jesse Rabbits
+  story: Ripley is a bright eyed, playful, 6-year-old rescue. He is affectionately known as Mr. Cheese.
+- name: Auto
+  picture: auto.jpg
+  human: Vaidehi(Vee) Purohit
+  story: Auto is a border collie mix. He is 7-year-old rescue, loves to run and chase people out the door. Best guard dog anyone could ever ask for.
+- name: Annie and Ruby
+  picture: annieandruby.jpg
+  human: Stephen Walters
+  story: Annie is a laid back Golden Retriever, always wanting a fuss. Ruby is a Red Fox Labrador and a complete livewire, always wanting food, to play and very protective, especially of our 2 year old granddaughter who they love.
+- name: Humpf
+  picture: humpf.jpg
+  story: Well-trained black lab with a love for carrots and naps.
+- name: Fifille and Lola
+  picture: fifille-lola.jpg
+  human: Christian Couder
+  story: Fifille and Lola are very fearful guinea pigs, unless you approach them with cucumber slices.
+- name: CMYK
+  picture: cmyk.jpg
+  human: André Luís
+  story: CMYK is a rescued unknown-mix mutt and proud of it. He thinks he is as huge as a Great Dane and as handsome as a Husky. He's the size of a Chihuahua so one out of two isn't that bad. Loves basking in the sun and will use you as a heated pillow every chance he gets.
+- name: Spirit
+  picture: spirit.jpg
+  human: Dennis Tang
+  story: Spirit is a rescued Chihuahua/Corgi mix that's the size of a Chihuahua but looks like a Corgi. He's an expert in extreme cuddling, begging for food, and being half-interested in playing with toys. In his spare time, he likes to take up all the space on the sofa or bed, also lick arms, and beg for more food.
+- name: Harvey
+  picture: harvey.jpg
+  human: Ronald van Zon
+- name: Hello Kitty
+  picture: hello-kitty.jpg
+  human: Ronald van Zon
+- name: Morgana
+  picture: morgana.jpg
+  human: Ronald van Zon
+- name: Dunya
+  picture: dunya.jpg
+  human: Ronald van Zon
+- name: Carlos
+  picture: carlos.jpg
+  human: Ronald van Zon
+- name: Muffin
+  picture: awesomemuffin.jpg
+  human: Thong Kuah
+  story: Muffin is a white Birman cat. Loves the sun and human warmth.
+- name: Emma
+  picture: emma.jpg
+  human: Jason Colyer
+- name: Klaus
+  picture: klaus.jpg
+  human: Jason Colyer
+- name: Swift
+  picture: swiftnienaber.jpg
+  human: Rachel Nienaber
+  story: Swift is a lovely Whippet that enjoys squirrels, naps, treats and head-pats.
+- name: Albus
+  picture: albus.jpg
+  human: Scott Hampton
+  story: Albus is very friendly. He loves to hang out with humans, and play with his brother Harry.
+- name: Harry
+  picture: harry.jpg
+  human: Scott Hampton
+  story: Harry loves being pet more than anything else. He also enjoys playing with his brother Albus, but only when he is in the mood.
+- name: Remy
+  picture: remy.png
+  human: Luke Duncalfe
+  story: Remy is a retired racing greyhound who loves short sprints around the park, and dog sausage.
+- name: Gregorie
+  picture: gregoriefontaine.jpg
+  human: Andrew Fontaine
+  story: Gregorie is Andrew's officemate, but is often found sleeping on the bed in the other room instead of working. Once she realizes that she's alone, she wanders the apartment until a human is found.
+- name: Mars
+  picture: mars.jpeg
+  human: Igor Drozdov
+  story: Extremely active and curious golden miracle with big ears. Loves cat treats which his owners call "vkusnyashka".
+- name: Maison
+  picture: maison.jpg
+  human: Denys Mishunov
+  story: Young. Active. Super-friendly. Extremely-friendly "sausage" with short legs and large ears that comes in the dogs' world under name ["Cardigan Welsh Corgi"](https://en.wikipedia.org/wiki/Cardigan_Welsh_Corgi). Loves everybody and everything that moves. Generally intelligent but an attempt to make an eye-contact from a stranger treats as declaration of love no matter what.
+- name: Remy
+  picture: remy-fluharty.jpg
+  human: Miranda Fluharty
+  story: If you see a fluffy tail wave in front of Miranda's face during a video call, it belongs to Remy. He likes to pretend that he doesn't know where his tail is, he's very talkative, and he loves getting in between a human and whatever they're trying to do.
+- name: Harley
+  picture: harley.jpg
+  human: Mike Lindsay
+  story: Harley is new to the cheer department, and likes long walks in....well anywhere. He has a good time chewing on pretty much anything, including your Bacon and Best Bowling Shoes.
+- name: Mckenzie
+  picture: mckenzie.jpg
+  human: Mike Lindsay
+  story: After many successful bids at Employee of the Month, Mckenzie is bucking for Employee of the Year with her constant snuggles. Her 50lb frame identifies as a lap or toy dog and she will not be denied.
+- name: Patrick
+  picture: pets-patrick.jpg
+  human: Tiger Watson
+- name: Juneau
+  picture: juneau.jpg
+  human: Ryan Cobb
+- name: Ginny Longtail
+  picture: ginnygins.png
+  human: Charlie Ablett
+  story: Ginny is fluffy and soft, and her seismic purr can be felt from across the room. Don't let that fool you - she's actually kind of evil and has the best hunting skills around. Personally, I'm rather glad she's out of the "surpise lacerations" phase of kittenhood, though I wish she would stop licking mayonnaise off our plates.
+- name: Ellie Artemis
+  picture: charlie-ellie.png
+  human: Charlie Ablett
+  story: Like all our cats, Ellie is a former shelter cat. Now she enjoys life on our rural property and thinks she owns the place. She's an absolute lap magnet and purrs like a Harley. Especially if food is involved. She may be the dumbest cat we've ever had, but we love her all the same.
+- name: Rio
+  picture: bdowney-rio.jpg
+  story: Rio is a French Bulldog who lives in Laguna Beach, CA and enjoys laying in the sun all day. His snoring can keep the entire house awake, so he sleeps as far away from the family as possible. Rio is one of the most gentle and loving dogs. He treats his human brother and sister very gingerly and loves to play with them all day. Rio has an <a href="https://www.instagram.com/lagunabeachrio/">Instagram Page</a> with over 1000 followers.
+- name: Hanna & Grim
+  picture: grimhanna.jpg
+  story: Hanna and Grim are best friends! Grim is a 10 year old Boston Terrier who loves taking naps in the sun and giving Hanna cat baths. Hanna is a 6 year old mix we found in a grocery store parking lot 5 years ago. She loves cuddles, giving hugs and protecting the family. Together these two, always leave a clean floor when I'm cooking!!
+- name: Balu
+  picture: balu.jpg
+  story: Balu is the CFO (chief food officer) in a small flat in Germany. He is <a href="#135-momo">Momo's</a> brother.
+- name: Momo
+  picture: momo.jpg
+  story: Momo always finds the right spot to lay on the keyboard to destroy your latest work in the most cutest way. He is <a href="#134-balu">Balu's</a> brother.
+- name: Kaya
+  picture: kaya.jpg
+  human: Rene Verschoor
+  story: Kaya joined us when she was ~1 year old to become a happy <a href="https://www.facebook.com/kayaverschoor/">husky at sea</a>. The beach and dunes are her playground, but being a typical 100% Siberian Husky she has to be on leash most of the time. She creates Food Requests all day, and merges them with cuddles. She probably dreams of Continuous Delivery of food...
+- name: Moose
+  picture: moose.png
+  human: Steve Abrams
+  story: Moose loves hot dogs, popcorn, chasing squirrels and birds, and laying in sunny spots.
+- name: Chaco
+  picture: chaco.jpg
+  human: Matt Nohr
+  story: Chaco, named after the <a href="https://www.chacos.com">footwear</a> and her chocolate coloring, is a rescue pup and a mix of a bunch of breeds.
+- name: Gustur & Rokin
+  picture: gusturandrokin.jpg
+  human: Hordur Freyr Yngvason
+  story: <a href="https://www.instagram.com/gus.and.rokin/">Gustur and Rokin</a> are named after a couple of wind-related words in Icelandic. "Gustur" is like a gust of wind, and "Rokin" is like "wooshed", or "gone, leaving but a gust of wind".
+- name: Apollo
+  picture: apollo.jpg
+  human: Glen Miller
+  story: Apollo is a Seattle Humane rescue, and was Mr. May in the 2018 Seattle Humane calendar.
+- name: Dakota
+  picture: dakota.jpg
+  human: Glen Miller
+  story: Dakota is a Seattle Humane rescue (rehomed to us), and received some early training as a K9 officer.
+- name: Maisel (Moo)
+  picture: maisel.jpg
+  human: Glen Miller
+  story: Maisel is also a Seattle Humane rescue. She is a Chihuahua/Dachshund mix, which is short-hand for "largest, loudest dog in the house". Maisel spends her days perched on the back of the couch, peering out the window, and dutifully protecting the neighboorhood from...everything not Maisel.
+- name: Arthur
+  picture: arthur-miller.png
+  human: Glen Miller
+  story: Arthur is a rescue from the Yakima Humane Society. DNA tests are still pending, but we suspect he and Maisel may be related.
+- name: Daisy Mae
+  picture: daisymae.jpg
+  human: Tyler Amos
+  story: Daisy Mae is a Southern Belle Dachshund. You can usually find her monitoring neighborhood activities in Hillsborough, NC.
+- name: Odin the Destroyer
+  picture: odinthedestroyer.png
+  human: Anton Smith
+  story: Odin the Destroyer (or Odin for short) spends most of the day sleeping, eating and watching traffic out the window. He is treated like a little fuzzy god in our house and gets lots of cuddles and treats. He also loves a good game of fetch!
+- name: Myka
+  picture: myka.png
+  human: Matt Kasa
+  story: Myka is a 7 year old German Shepherd/Pit/Staffordshire mix, she has had years of training and is an incredibly hard worker. She loves grass, frisbees, and walks to get coffee.
+- name: Freddie Girl
+  picture: freddiegirl.jpg
+  human: Steph Sarff
+  story: Freddie Girl is the best mutt her mom could ever ask for. She loves car rides, splashing in the water, playing with her buddies, eating french fries, and sitting on her mom's lap in public.
+- name: Jibboom
+  picture: jibboom.jpg
+  human: Thomas Randolph
+  story: Jibboom is an adopted 8 year old American Staffordshire Terrier. He looks tough, but he's a big softie. He might jump on you, but only because he wants to lick your face so bad. His favorite things to do are lay outside in the sun, lay inside on the couch, lay on his bed, lay in his human's bed, and eat bananas. Jibboom is battling a few kinds of cancer - and winning, because nothing can keep his spirits down.
+- name: Buddy
+  picture: buddy-nnguyen.png
+  human: Nick Nguyen
+  story: Buddy is a mix of beagle, spaniel, and who knows what else. He spends his days following his humans around, snuggling, rolling around in gross things on the farm, and going off on side quests into the woods.
+- name: McCauley
+  picture: mccauley.jpeg
+  human: Ron Koster
+  story: My name is McCauley. I am a labrador mix and used to live in LA until I was rescued and brought to NH with Rescue Road Trips rescueroadtrips.org. I like to ride in the car, go for walks and chew on raw hide bones.
+- name: Sonic
+  picture: sonic.jpg
+  human: Allison Browne
+  story: Sonic is a rescue mutt but he may be partially a carolina dog (AKC breeed) based on his looks. He's gotta go fast!
+- name: Toulouse
+  picture: toulouse.png
+  human: Kristof Goossens
+  story: Hi! I'm Toulouse, or at least thats what my human servants call me... I'm what they call in Dutch a 'lappenkat' but I prefer the English term 'Calico cat' since it's more 'Chique'! Anyway hope to meet you someday, and err could you bring some food because I'm always hungry! Purrrfect!
+- name: Harry and Eve
+  picture: harry-eve.jpg
+  human: Alex Ives
+  story: Eve and Harry are both from the <a href="https://www.dakinhumane.org/adopt-a-pet.html">Dakin Humane Society</a>. Locally, Harry is known as "Harry, Prince of Fluff". Eve is named after the robot from wall-e. Adorable but slightly deadly.
+- name: Carter and Kato
+  picture: carter-kato.jpg
+  human: Alex Ives
+  story: Kato and Carter both came from <a href="https://safehandsrescue.org/">Safe Hands Rescue</a>. Kato is the dog that convinced his dad he needed a dog, and Carter came a year later when Kato clearly needed a pup fren.
+- name: Emma
+  picture: emma-joern.png
+  human: Joern Schneeweisz
+  story: Emma chills a lot. She might have some dog genes as often she acts like one. Other times she's a typical cat 🐈 .
+- name: Mikah and Luna
+  picture: mikah-luna.jpg
+  human: Zack Cuddy
+  story: Mikah (Calico in back) is our moody princess. She tends to think she rules the house, but the minute a new person walks in the house she drops her act and is the most loving cat you will ever meet. Luna (Tuxedo in front) is our laid back cat. She most likely will be found lounging around on her cat tower or near a window. Opposite to her sister, the minute someone new visits, she is no where to be found. With both of them however, once you get to know them, you'll find they are the most loving and gentle cats around.
+- name: Milou
+  picture: miloumejia.jpg
+  human: Pilar Mejia
+  story: Milou ("Milo") was named after the adventurous pup in the Adventures of Tintin due to his intrepid spirit and fearless (some would say neurotic) persona. He was discovered by Pilar at the County Animal Shelter where he had been picked up as a stray and been living a life under the alias Fabio. His plucky attitude immediately won over Pilar and her husband and after taking a DNA test he came back as alledgedly being all Chihuahua. His origin story is shrouded in mystery so guesses place him at around 10 years of age by now but you wouldn't know it from his eternally youthful behavior. When he's not sunbathing or protecting the fort, he enjoys helping keep the floors clean after his toddler roomates' meals and serving as part baby doll part super villain during their imaginary adventures around the house.
+- name: Sparky
+  picture: sparky.jpg
+  human: Michael Scarnato
+  story: Sparky is an Australian Labradoodle with plenty of personality. He loves to play outside and especially loves playing in the snow. He loves his family and is friendly towards just about any other animal.
+- name: Theodore and Benedict
+  picture: ben-and-theo.jpg
+  human: Simon Mansfield
+  story: Theodore (Theo to his friends) is a feisty, loud and pretty crazy bengal cat, who likes to think that he's a dog. He loves his dad to death (smothering is a real risk!). He and his mum are constantly battling for Simon's attention, Theo normally wins. Benedict (Ben to his admirers) is, by comparison, sedate, lazy and sleeps a lot. That is until he senses the opportunity of going for a walk, when he will proceed to follow you to wherever it is you are going!
+- name: Oreo Cookie
+  picture: oreo-cookie.jpg
+  human: Fernando Diaz
+  story: Oreo Cookie is a Rat Terrier mix. She's a crazy little playful pup who loves chasing squirrels around the backyard. She's a rescue from Austin Pet's Alive.
+- name: Luzifer and Sebastian
+  picture: luzifer-and-sebastian.jpg
+  human: Andy Schoenen
+  story: Luzifer was always up to something. When Sebastian moved in one year ago it was clear that they would join forces to take over the world. They get disctracted by birds or insects very easily and sleep almost all day which makes it very unlikely that they will ever succeed.
+- name: Ollie
+  picture: ollie.jpeg
+  human: Jerome Ng
+  story: Ollie is a stubborn Shiba Inu Eskimo who loves to greet new friends with his version of the high-five. His pastimes include burrowing on the couch, destroying toys, and playing fetch.
+- name: Garu
+  picture: garu.jpg
+  human: Jean Peguero
+  story: Garu is a male chihuahua that has been with me since I was little, he is now 11 years old. He loves to go for walks, sunbathing and to cuddle.
+- name: Toph
+  picture: toph.jpg
+  human: Amy Qualls
+  story: Toph is, by far, the Worst Cat. Luckily, she does not understand English. She was named for the destructive, powerful, yet charming Toph Beifong in Avatar, The Last Airbender. When not pursuing her ambitious and exhausting goal of sleeping 22 hours per day, Toph focuses her talents on the destruction of all shades and blinds in her home. When time permits, she continues her quest to murder her beloved green fluffy worm toy and annoy her sibling tuxie, Pippin.
+- name: Brownie
+  picture: brownie.jpg
+  human: Jaime Martínez
+  story: Brownie is a fox terrier cross Australian kelpie. Brownie is a happy and very energetic dog that loves playing fetch so much! He loves the dog park, the beach and cuddling.
+- name: Haldi
+  picture: haldihawoldar.jpg
+  human: Vijay Hawoldar
+  story: Haldi is a lab/collie/whippet mix who is never happier than when running around forests, catching a frisbee or playing tug-of-war with her humans.
+- name: Chocomilk
+  picture: chocomilk.jpg
+  human: Ronnie Alfaro
+  story: Chocomilk is a flemish giant rabbit, this particular breed can grow to 2.5 feet long ( 76cm ), she likes apples, strawberries, bananas and of course carrots. She likes to sleep and dig small holes in the backyard (you guess it to sleep ).
+- name: Dora
+  picture: dora.jpg
+  human: Alan (Maciej) Paruszewski
+  story: Dora is a Pointer / Labrador mix who loves being with her family. She likes to travel, visit new places and spend time outdoors, especially on beaches.
+- name: Darcy
+  picture: darcy.jpg
+  human: Tetiana Chupryna
+  story: Darcy is a sweet fluffy bichon frise. He is the merriest and most playful friend of people, dogs, cats, and crows.
+- name: Allie
+  picture: alliechu.jpg
+  human: Terri Chu
+  story: Allie 'Alliegator' Chu is a miniature bull terrier (like the Target dog and Spuds MacKenzie). She has her very own Instagram and loves eating, sleeping, and being extremely stubborn.
+- name: Winston
+  picture: winstonwoolf.jpg
+  human: Max Woolf
+  story: Winston, a lab/golden retriever cross, is a former trainee Guide Dog who decided working life wasn't for him. He spends his days snoozing, chasing balls and keeping his humans company.
+- name: Cleo
+  picture: cleo.jpg
+  human: Robert Williams
+  story: Cleo, a rescuse cat won't stand for the love of anyone else and get spoilt because of it. She will not work it all off and slowly become more and more round.
+- name: Harper
+  picture: harper.jpg
+  human: Bryan May
+  story: Harper is a black lab mix rescued from a high-kill shelter. She loves a good squirrel chase in the backyard or a game of hide and seek with her humans.
+- name: Pebbles
+  picture: pebbles.jpg
+  human: Bryan May
+  story: Pebbles is a rescue cat. She enjoys everything about cardboard boxes, batting at grape stems, and precariously walking on banisters and railings.
+- name: Clover
+  picture: clover.jpg
+  human: Emily Plotkin
+  story: Clover Plotkin rehomed herself to the Plotkin family in summer 2016. She is quite the vocal queen of the house who likes nothing more than to curl up with her human, especially while her human is on calls. When she isn't "helping" at work, she spends her time hanging out with the local wombats who appear to inhabit the same home.
+- name: TacoCat
+  picture: taco.jpg
+  human: Emily Plotkin
+  story: TacoCat is a palindrome. Say his name backwards or forwards and it's the same. He was found at a Taco Bell (hence the name) and clearly knows the best use of a treadmill.
+- name: Shadow
+  picture: shadow.jpg
+  human: Emily Plotkin
+  story: Shadow was adopted for free from a neighbor's cat who had kittens. Shadow likes to eat cords and cables. Those that are connected to the computers are the tastiest. This has made Shadow an expensive cat.
+- name: Sully
+  picture: sully.jpg
+  human: Austin Regnery
+  story: Sully (named after Sullivan's Island) joined the Regnery family in the Fall of 2018. She is your typical Goldendoodle, and spends her days at her dad's feet in the office. When she's not being a co-worker she loves to go on long walks, play fetch, go swimming in the ocean, or practice her training. She is AKC certified and aspires to become a therapy dog to visit patients at the local hospitals.
+- name: Archik
+  picture: archi.jpg
+  human: Kate Grechishkina
+  story: Archik is a blue masked lovebird named after Arcj Linux distro. His favourite thing to do is destroying human's keyboards. If you can't find him on his human's shoulder, he is probably screaming on his perch and/or throwing seeds all over the place.
+- name: Lucy
+  picture: lucy1.jpg
+  human: Byron Boots
+  story: Lucy is a Lab/Whippet Mix we think (a Whipador) meaning she has great eyesight, lots of energy, a retriever instinct and is extremely speedy. In summary, we play a lot of fetch. Lucy has been with us since 2018 and has made each and every day brighter. In her free time Lucy enjoys... sleeping, chasing lights, playing with her tennis balls (she has a lot), and requesting belly rubs from her humans no matter how busy they seem to be.
+- name: Charlie
+  picture: pet-charlie.jpeg
+  human: Tatyana Golubeva
+  story: Charlie is a Golden Retriever who lives in Chicago, IL with his brother Hans (shown next). He loves to swim, chase squirrels and steal toys from his brother, especially if they are squeeky balls.
+- name: Hans
+  picture: pet-hans.jpg
+  human: Tatyana Golubeva
+  story: Hans is a Cane Corso who lives in Chicago, IL with his brother Charlie. He loves to protect his humans, orthopedic beds and squeeky balls.
+- name: Harriet and Claude
+  picture: claudeharriet.jpg
+  human: Emily Bauman
+  story: Harriet and Claude are two rescue cats living the condo life in Toronto, Canada. They also happen to be blind, but this doesn't stop them from getting into all the typical troubles cats do. Claude loves outdoor time on the balcony and his favourite bed. Harriet adores her food and hanging out around her humans.
+- name: Winnie
+  picture: winnie.jpg
+  human: Sean Arnold
+  story: Winnie is a < 1 year-old Labrador Retriever living in Wellington, NZ. She loves meeting everyone and everything on her walks. A perfect day for Winnie is a swim at the beach with her doggo friends, followed by a snooze on the couch.
+- name: Guinness
+  picture: guinness.jpeg
+  human: Naheil McAvinue
+  story: Guinness is a Bloodhound/Great Pyr/GSD mix with a penchant for long walks and chicken treats. She is also a professional nap-taker; takes her job very seriously.
+- name: Zibby
+  picture: zibby.jpg
+  human: Nick Hertz
+  story: Zibby is a 2 year old Bull Terrier/black Lab mix who loves running, fetch, and playing with other dogs. Squirrels, rabbits, and rats are her main interests. Her head size is approximately 3x most other dogs. Her name comes from a <a href="https://history.nasa.gov/animals.html">brave cosmonaut dog</a>.
+- name: Kyoto
+  picture: kyoto.jpeg
+  human: Miguel Rincon
+  story: Kyoto arrived in 2021 to our home and quickly adapted to her new home. She loves meeting new people and saying hi to everyone on the street, especially children. She is learning new things everyday and we don't know how big she'll get.
+- name: Toby
+  picture: toby-stomlinson.jpg
+  human: Simon Tomlinson
+  story: Toby is a lovable, 13 pound cat with no teeth who loves strangers and being scratched under his wobbly chin.
+- name: Eggy & Momo
+  picture: eggyandmomo.jpg
+  human: Eugene McCrann
+  story: Eggy is a food obsessed 5 year old long-haired cat. He has a high opinion of himself and tries to help himself to fine cheeses even if guests are present. Momo is a 3 year old cat with a pumpkin head and the sweetest temperament imaginable. She spends her time looking out the window and heaping affection onto Eggy.
+- name: Archie & Bobby
+  picture: archie-and-bobby.jpg
+  human: Joe Shaw
+  story: Archie (left) and Bobby (right) are brothers from the same litter. They mostly tolerate each other. With humans Bobby is aloof while Archie is very friendly. They are outdoor cats; most days they are inside asleep, at night their whereabouts are often unknown.
+- name: Patatje
+  picture: patatje.jpg
+  human: Eduardo Bonet
+  story: 'Patatje the judgemental Golden Retriever. Enjoys sitting on the balcony ~judging~ observing the neighborhood, and convincing them she has never been given any kind of love or pets or food. Already invaded a highschool, and was not sorry. Doesn''t really like getting stuff stacked on her head as much as we like to stack stuff on her head. Highschools invaded: 1. Regrets: 0.'
+- name: Ziggy
+  picture: ziggy.jpg
+  human: Chris Sharp
+  story: Ziggy is a Border Terrier who likes cuddles and playing with other dogs. He loves walking in forests where he is very well camouflaged.
+- name: Ellie
+  picture: elliewilk.jpg
+  human: Katie Wilkinson
+  story: Ellie is a 110lbs Rottweiler who loves swimming, snacking, and cuddling. She enjoys patrolling the neighborhood for squirrels, and her archnemeses, Corgis. On the weekends, you can find her at the local Starbucks trying to guilt someone into buying her a puppachino.
+- name: Rocket
+  picture: rocket.jpg
+  human: Madeline Lake
+  story: Rocket is a cat with a big appetite. He always wants to eat food - even if it's leafy greens on your plate. His favorite food is ice cream and popcorn, much like his owner. Outside of eating, his favorite activities are to bask in the sunlight, and catch up on some sleep with his bff - Cutie Patootie.
+- name: Cutie Patootie
+  picture: cutie-patootie1.jpg
+  human: Madeline Lake
+  story: Cutie Patootie is one cute cat! As a tri-colored calico princess, her fur is always in need of grooming. Luckily her bff Rocket is always there to lend a tounge. Cutie Patootie loves to be coo'ed and cuddled, but in order to sit on your lap, she requires only the best blankets in the house.
+- name: Cali and Clementine
+  picture: cali-and-clemi.jpg
+  human: John Mason
+  story: Cali and Clementine are sisters that were born on a farm. They are the most loving cats ever and are often found giving each other baths or snuggling on top of each other. If they are not snuggling each other, they also enjoy snuggling with John's boys David and Liam.
+- name: Maximus
+  picture: max.png
+  human: Laura Robins
+  story: I got Max when he was 12 weeks old and he was a tiny ball of fluff, he is now almost 2 and rules the house! He's very vocal so will make himself heard in meetings and loves a cuddle!
+- name: Code
+  picture: code.jpg
+  human: Christopher Guitarte
+  story: My name is Code (pronounced kow-dee). I am a cavapoo (Cavalier King Charles Spaniel and Poodle mix). I love playing fetch but don't like it when deliveries come to my house - so please don't mind me if you hear me on my human's meetings okay?
+- name: Ozzie
+  picture: ozzie.jpg
+  human: Sandra Gittlen
+  story: I'm a border collie with never-ending energy!
+- name: Velvet and Loki
+  picture: velvet-and-loki.jpg
+  human: Michael Trainor
+  story: Velvet is a Mini Foxy x Whippet. She was adopted as a pup. She is a very sweet and playful girl. Loki is a mini dachshund with a big personality. Together they are best friends for life.
+- name: Teddy
+  picture: teddy.jpg
+  human: Erika Feldman
+  story: Teddy is a Bernese Mountain Dog who lives in Seattle. She loves to pounce in mountain snow every chance she gets. She insists on making a case for her adventures during Zoom meetings.
+- name: Bella
+  picture: bellabackerman.jpeg
+  human: Jesse Backerman
+  story: Bella is a Boxer from Phoenix, Arizona. She enjoys walks, naps, eating everything, and hanging out with her family.
+- name: Stormy and Tigga
+  picture: stormyandtigga.png
+  human: Ket Slaats
+  story: Stormy is a husky x eng staffy who is of a nervous disposition, but also fiercely loyal. Tigga is a noisy girl who is alien by nature. She is extremely loving and cuddly... except for when she's not.
+- name: Grey
+  picture: grey.jpeg
+  human: Harsha Muralidhar
+  story: Grey is a freagle (freed beagle). He is a rescue whom we brought in when he was 4. He loves to eat, cuddle and sleep. Friendly with people and stray dogs but not so much when it comes to other pet dogs. A scent hound so any spilt food gets cleaned up instantly!
+- name: Macy and Maggie
+  picture: macy-maggie.jpeg
+  human: Payton Burdette
+  story: Macy (left) and Maggie (right) are both goldendoodles. Macy is the loud one, loves to bark and get into our trash in the middle of the night. Maggie is the quiet one but loves to dig holes and randomly attack Macy when she least expects it. They both love to snuggle and we love them both very much (even though they get on our nerves most of the time).
+- name: Willow
+  picture: willow-woolf.jpg
+  human: Max Woolf
+  story: Willow is a Labrador who spends most of her day constantly on the move, chewing her brother's ears, or barking at him. She is very intelligent and keen to learn everything except that sitting still is sometimes fun.
+- name: Milo
+  picture: milofilo.jpeg
+  human: Megan Filo
+  story: Milo is a German Shepherd / Labrador mix and a very good boy. He loves being outdoors, playing with other dog pals, and getting tons of attention and treats! He takes his job as a watch dog very seriously, usually interrupting his mom's meetings to let everyone know that we have packages being delivered or that there's some kind of animal in the yard.
+- name: Lada
+  picture: lada.jpg
+  human: Stanislav Lashmanov
+  story: Lada is a rescued mutt. She's playful, cheerful and tricky at the same time. You wouldn't leave a cat near her. She can't help but to search for hedgehogs or mice from far away. If you get a chance to pet her she'll be very grateful.
+- name: Sherlock
+  picture: sherlock-mh.jpg
+  human: Dan Mizzi-Harris
+  story: Posh boy.
+- name: Charlie
+  picture: charlieah.png
+  human: Armin Hergenhan
+  story: Charlie is a good boy Golden Retriever who lives in London. His favourite hobbies are barking at squirrels, swimming in lakes and drinking out of muddy puddles. Favourite games include fetching dirty washing from the wash basket and barking at his toy lion when it misbehaves.
+- name: Rosie
+  picture: rosie.jpg
+  human: Simon Street
+  story: Rosie loves a good nap in between sessions of demanding attention and more food.
+- name: Catalina
+  picture: catalina.jpg
+  human: Keelan Lang
+  story: Catalina is a feisty, half-blind Russian Blue who stole my heart when I saw her adoption poster. She had a rocky early life, living in unstable homes, but she's really blossomed in a loving household where she can be herself. She may not be able to see well, but she's an incredible listener who comes sprinting in at even the tiniest clatter of food dish or rustle of treat bag. The only cat that doesn't purr or like boxes, you can find her sleeping under the TV stand. Or under the bed. Or under my desk. Or und—
+- name: Coco
+  picture: cocomenon.jpg
+  human: Sruthy Menon
+  story: Coco is a goldadore!
+- name: Junior
+  picture: junior.jpg
+  human: Alex Pham
+  story: Junior is a professional lap dog. On his downtime, he enjoys doing tricks for snacks and sunbathes.
+- name: Brutus
+  picture: brutuscrosbie.jpg
+  human: Alice Crosbie
+  story: Brutus loves to sleep, eat and sit in the sun watching the birds
+- name: Chico
+  picture: chicocrosbie.jpg
+  human: Alice Crosbie
+  story: Chico loves to sleep, he sleeps about 22 hours a day and fills his awake moments with eating
+- name: Cody
+  picture: codysummers.jpeg
+  human: Marcella Summers
+  story: Cody is a 3-year old Maltese Shih-tzu mix, otherwise known as a Teddy Bear. He loves and expects to get attention from everyone. If he doesn't get them right away, he'll stand on his hind legs and beg by moving his front pawn up and down rapidly. This usually does the trick and gets him the attention he seeks.
+- name: Ziggy and Spencer
+  picture: ziggyspencey.jpg
+  human: Sarah Rogers
+  story: Ziggy is nearly 13 years young, almost totally deaf and is so cute he knows he'll get by on his looks. Spencer is Ziggy's recently adopted fur brother and is 3 years old, a nervous wreck (though learning that he's safe here) and looks like a fox. The best co-workers I could ask for!
+- name: Dobby
+  picture: dobby.jpg
+  human: Adam Jensen
+  story: Dobby is a crested gecko, and joined our family as my wife's classroom pet; when the pandemic hit, he came home to live with us full time. He spends most of his days lounging in whimsical ceramic containers, but always climbs his front window to watch during family movie night.
+- name: Mokey
+  picture: mokey.png
+  human: Adam Jensen
+  story: Mokey is a miniature Schnauzer, born in 2007 —which makes her 15 years old. These days she spends most of her time curled up in a soft bed, but she also loves making her rounds in the backyard, making sure everything is right in its place. She loves nothing better than a good scratch behind the ears.
+- name: Raina Rey
+  picture: rainarey.jpg
+  human: Adam Jensen
+  story: Raina Rey is a toy goldendoodle, born in 2019. She loves that Adam works remote, because she can sit right behind his head and keep an eye on things. She loves to play with her two sisters, Dusti Red and Mokey. She is a great co-worker!
+- name: Belle
+  picture: belle.jpg
+  human: Roy Zwambag
+  story: Belle is a calico that loves to sleep, getting groomed, eat and then sleep some more. Belle never misses her crazy cat hour in the middle of the night though.
+- name: Dexter
+  picture: dexterbeagle.jpg
+  human: Dylan Tragjasi
+  story: Dexter is a beagle that loves to eat and sleep 90% of the time. The other 10% of his time is spent expending all of his pent up energy doing zoomies. Dexter's passions include travelling and fine dining.
+- name: Cleo & Chester
+  picture: cleochester.jpg
+  human: MaryGrace Wajda
+  story: Both born in the uneventful month of March 2020, Cleo and Chester joined the family in June 2020 and have been ruling the household ever since. Cleo is a bengal that enjoys sleeping, following her humans around, and running on her cat wheel (the more you praise her, the faster she runs). She also likes watching TV (she's partial to 'The Dog House UK' on HBO), eating anything with chicken, and making her voice heard (mostly in the early morning hours in case her parents forget to feed her, which has yet to happen, but she's extremely proactive). Chester is a tabby or 'standard issue cat' that loves supervising, 'helping' around the house, and finding new ways to keep his humans on their toes. If you're eating around Chester, expect to share—his favorite foods include cheese and the occasional croissant. Despite his comfortable existence, his mission in life is to get out of the apartment, and he has been known to get into some interesting places in his quest to befriend everyone and everything (except the vet). Chester has his own laptop, but this doesn't stop him from walking across my keyboahajqkwu
+- name: Pepper
+  picture: pepperjh.png
+  human: Raimund Hook
+  story: Pepper is a Miniature Schnauzer who can't decide whether she is a cat or a dog. She loves long walks (preferably in the park/ without a lead - she runs away from that!), cycling on her buddy rider, barking at passers by and snoozing.
+- name: Midna
+  picture: midna.jpg
+  human: Alex Pennells
+  story: Midna is a Sphynx that has no problem demanding attention at any time of the day. She can typically be found snoozing under blankets, sitting in a windowsill or darting outside anytime a door opens.
+- name: Harley
+  picture: harley2.jpg
+  human: Alex Pennells
+  story: Harley is a German Shephard/Collie mix who oddly prefers the great indoors, due to her deadly fear of flies. She does enjoy venturing out to play in the snow during the winter, free from the terror of flying pests.
+- name: Venom
+  picture: venom.png
+  human: Alex Pennells
+  story: Venom is a Border Collie/Golden Retriever mix who likes to push boundaries. He understands the word 'no', but he also knows how to ignore it. He can typically be found eating anything you left on the counter, whether it's actually edible doesn't matter.
+- name: Jynx
+  picture: jynx.png
+  human: Alex Pennells
+  story: Jynx is a Beagle/Boston Terrier mix who is terrified of being left alone. She can typically be found sleeping under blankets, sunbathing, or demanding that you play fetch with her.
+- name: Cooper
+  picture: cooperroberts.png
+  human: Lauren Roberts
+  story: Cooper is the cutest one year old black lab. He loves listening to Taylor Swift with his mom, watching Clemson football with his dad and snacking on carrots and blueberries while mom takes calls.
+- name: Fynn
+  picture: fynn.jpg
+  human: Jess Perry
+  story: Well, hi there! I'm fun-loving Fynn. I'm an 8 month old red tri Australian Shepherd and live in Southern California with my mom, some other pups at the house, and lizard siblings. I love to run, play ball, play tug of war, rip up my stuffed animals, and chase my frisbee. I get to spend my afternoons and weekends hiking and playing with my new friends at the dog park. I also spend a lot of time in the garden with my mom where I'm on squirrel duty and take that job very seriously, even though I have yet to catch one. I hate when mom is working and won't pay attention to me! '
+- name: Oscar
+  picture: oscarma.jpg
+  human: Leaminn Ma
+  story: Oscar was adopted from an animal shelter when he was 5 years-old. He's now 11 years-old (as of August 2022) and has established himself as the head of the household. His parents might be a little biased, but Oscar is incredibly handsome and they often tell him he's the "cutest boy in the whole world." His morning routine consists of tapping on his mom's face to serve him breakfast and getting some fresh air in the yard. He also enjoys purring on his mom's lap while perched on her right arm as she types. Oscar has been getting a bit chubbier lately but he insists it's only because he's in dire need of snacks all the time. One of his favourite pastimes is helping with jigsaw puzzles by lying down on top of the pieces you're working on. Overall, he's a very friendly and cuddly cat, and is very much loved to bits.
+- name: Lua
+  picture: lrosa-lua.jpg
+  human: Leonardo da Rosa
+  story: Lua is a 12 years-old Beagle passionate for food and treats! She's a very sweet girl that likes adventures and sleeping in the afternoon. On her free time, she enjoys watching movies with her mommy and daddy.
+- name: Yoda
+  picture: yoda.jpg
+  human: Julia Miocene
+  story: Yoda is a 9 years-old cat. He looks like a Maine Coon, but he's not. He's small (just 3kg!) and really fluffy. Yoda loves to join all meetings.
+- name: Benny and Bruno
+  picture: bennybruno.jpg
+  human: Pam Corpus
+  story: These boys are both rescues. Benny is a little old man dog that we have no history on (not even what his name was) who loves to sleep under blankets all day unless he is eating. He is overweight, has skin issues, but we are doing our best to give him the love he deserves. Bruno on the other hand, has a troublesome history and is in constant 'protect' mode. Which means no one else besides our immediate family can come in the house, and taking him for a walk is near impossible. He loves us (mostly me) unconditionally, but everyone else is not allowed near us. Love them both to death.
+- name: Gisele
+  picture: gisele.png
+  human: Zach Henderson
+  story: Enjoys playing with her string, toy mouses and sleeping. Typically found in a sunbeam or on a blanket. Known for her distinctive chirps and squeaks, she's the best family member anyone could ask for.
+- name: Luna
+  picture: luna-jmoverley.jpg
+  human: James Moverley
+  story: Fiesty tuxedo cat! love to sleep (lots), catch things (sometimes live things) not afraid to grab your attention when wanting food! Still not sure about snow or when the front door opens! Favourite food is chicken, goes crazy for a laser spot!
+- name: Meraki
+  picture: meraki.jpg
+  human: Kristine Setschin
+  story: Meraki - the chocolate English Cocker Spaniel - is our newest furry EMEA Field Marketing support, located in Ingolstadt, Germany. He loves pretending to be the sweetest puppy in the world when he's after some cuddles. Otherwise he's also known as the Tasmanian Devil of Ingolstadt if you catch him during his puppy crazies. He's my constant foot warmer under my working desk and a loyal companion on our travels!
+- name: Oliver
+  picture: oliver.jpg
+  human: John Edge
+  story: Oliver is a big, fluffy boy that I've had since he was a kitten. He was a stray and mistakenly identified as a she (I am obviously not a veterinarian), so we named him "Olive". Once we took him to a _real_ vet, "Olive" became "Oliver"! (Pictured here covered in Styrofoam pellets after playing in a cardboard shipping box.)
+- name: Velvet
+  picture: velvet.jpg
+  human: Martin Cavoj
+  story: Velvet is an introverted Russian Blue, loves to cuddle and give high-five. He enjoys playing with his feather stick, eating tuna and watching bird videos. Touching his back legs is not recommended and will have consequences.
+- name: Louis
+  picture: louis.png
+  human: Amy Shiel
+  story: Louis is a French Bulldog. He was born in Australia in 2020 and moved with us to Ireland in 2022. He enjoys his food and spends much of his day foraging for snacks. He is not a big fan of going for walks but enjoys playing with his ball in the back garden and ensuring our chickens are behaving themselves.
+- name: Yoggi
+  picture: yoggi.png
+  human: Olivier Dupré
+  story: Yoggi is a lovely Jack Russel Terrier. We saved him after he spent 7 years of his live in a cage with 6 other dogs. He is now enjoying his live and some rest with is 2 brothers Poussin and Kiwi!
+- name: Poussin
+  picture: poussin.png
+  human: Olivier Dupré
+  story: Poussin is partly a Beauceron (sheepdog from Beauce). We do not know much about him as his 2 first years were spent going from place to place. He is so shy and emotive. But also a great runner loving very wide outside space.
+- name: Kiwi
+  picture: kiwi-odu.png
+  human: Olivier Dupré
+  story: Kiwi is a black European cat. He joined us when he was approximately 2 years old and immediately felt in love with our 2 dogs. He loves going for a walk with the neighboor's cat, who meows at the door when he wants some friendly time.
+- name: Winnie
+  picture: dhodes-winnie.jpg
+  human: Dan Hodes
+  story: Winnie was happily rescued in February 2020 and so she does not know a world where her owners aren't home all the time. She is a mix of dachshund, chihuahua, terrier, and probably some other things. She enjoys chasing but not catching squirrels, napping, and occasionally playing fetch.
+- name: Chloe
+  picture: chloe.jpg
+  human: Shoji Ozawa
+  story: ''
+- name: Ghost
+  picture: ghost-copy.png
+  human: Michelle Almendarez
+  story: Ghost is a white German Shepherd. He is a goofy, happy dog and loves to play fetch. His best friend is a cat named Kylo Ren
+- name: Jambo
+  picture: jambo.jpg
+  human: Christoph Parschau
+  story: Jambo is an Australian Cobberdog born in February 2023. Originally from Spain, he now enjoys the mild climate in his new hometown of Hamburg. His favorite pastime is getting cuddles, chasing a squeaking ball in the garden, and looking super cute.
+- name: Ziggy & Odie
+  picture: ziggyandodie.jpg
+  human: Karen Clausen
+  story: Ziggy is 11 years old, from Tortola, British Virgin Islands. Odie is his brother in paws, 6 years old, from Kerry, Ireland. They are both rescue dogs. They have a great time together and love the beaches in the Wild Atlantic.
+- name: Andy
+  picture: andylavi.jpg
+  human: Chad Lavimoniere
+  story: Andy looks like a skinny black lab puppy, but he's actually a senior citizen mutt. He's a rescue, who was adopted from Badass Animal Rescue in Brooklyn, NY but originally came from Selma, AL. Andy is a big fan of hiking and running, but isn't keen on toys, sticks, and balls.
+- name: Lexi
+  picture: lexi.jpg
+  human: Tony Marsh
+  story: Lexi came to live with me in 2012, and has been a constant fluffy companion since. If she's not dozing somewhere, she'll often be found supervising me in video calls or surveying her domain from a cat tree.
+- name: Merry & Pippin
+  picture: merry-and-pippin.jpg
+  human: Tony Marsh
+  story: These two loveable hobbits were born in March 2023, and their main hobbies include napping, eating and waking balrogs.
+- name: Fitz
+  picture: fitzaroo.png
+  human: Dasha Adushkina
+  story: Fitz's true loves in life (outside of his humans) are catching chuckits and rolling around on the beach. He is currently working on conquering his fear of seagulls.
+- name: Chesney & Ozy
+  picture: chesneyozymondo.jpg
+  human: Veronica Mondo
+  story: Chesney, the lovable Cavalier King Charles Spaniel, and Ozy, the cuddly Siberian, are the best of friends 90% of the time. The remaining 10% is spent chasing each other around the house, going on walks together, and competing for the humans' attention.
+- name: Winston & Leo
+  picture: winston-and-leo.jpg
+  human: Taliesin Millhouse
+  story: Winston, the quiet 7kg monster cat who is always looking for food, and Leo, his much smaller, yet much louder younger brother, who is always looking for attention.
+- name: Elvie
+  picture: elvie.jpg
+  human: Taliesin Millhouse
+  story: Elvie's favorite things are food, the beach and pats from strangers who can't help but come say hello.
+- name: Wilson
+  picture: wilson-owens.jpg
+  human: Madison Owens
+  story: Loves eating, sitting in the pantry, treats, Goldfish, dinner, second dinner and Lamb Chop.
+- name: Ollie
+  picture: olliecorgi.jpg
+  human: Michelle Chen
+  story: Ollie is a big corgi that is more like a cat than dog. He enjoys his own space and following you around the house. But physcial contact? No thanks.He likes to pick up socks and stuff he find on the ground to trade for treats. He's always judging you with his typical Corgi side-eyes but he's got the cutest sploot and fluffiest booty.
+- name: Alfie
+  picture: alfie.png
+  human: Alex Sweet
+  story: Alfie is a 10 year old Goldendoodle who is a real life teddy bear. When he is not pestering people for cuddles, he loves swimming in the sea and paddleboarding. Alfie's favourite foods are strawberries and carrots, although he will eat basically anything (except citrus fruits)!
+- name: Skye
+  picture: skye.jpg
+  human: Donna Alexandra
+  story: Skye is a sassy old Border Collie who knows how to get away with whatever she wants. She was originally a working farm dog, but dislikes the rain and prefers to do things in her own time so has taken up residence with humans to do her bidding.
+- name: Lewis
+  picture: lewis.jpg
+  human: Donna Alexandra
+  story: Lewis is a textbook Golden Retriever. He is usually covered in mud, and believes he's a lap dog despite weighing in at 40kg (~90lb). He is the embodiment of unconditional love, and will make sure to grab his favourite toy to greet you whether you've been gone for a week or 5 minutes.
+- name: Josie
+  picture: josie.jpg
+  human: Grace Lin
+  story: Josie was found at (estimated) 3 months old in the wild hanging around a herd of buffalo. She's scared of most new things, including the kitchen, but is growing more confident every day. Her morning greeting is a polite ooOOOOoooo, thorough stretches, and smacking the floor to play.
+- name: Rupert
+  picture: rupert.jpg
+  human: Alec Xu
+  story: Rupert is an old 12 year-old French Bulldog that is equal parts stubborn and playful. He loves to go on walks, and hates coming back home from a walk. He also loves to play tug-o-war.
+- name: Coco and Pixel
+  picture: coco-pixel.jpg
+  human: Andrew Newdigate
+  story: Coco and Pixel are Goldendoodles living in Cape Town, South Africa. Pixel was supposed to be a small dog, his dad being a miniature poodle, hence his diminutive name. He has, however grown to be bigger than his sister, Coco, who's dad is a standard poodle. Both dogs have golden retriever mothers. Pixel is the goofiest dog in the world. He loves carrying blankets around in his mouth, trail-running with his parents on Table Mountain, and relaxing in dirty muddy puddles with only his head sticking out. Pixel is a very good dog. Coco loves being patted, or any other attention that she can get, and has perfected her ability to plead longingly at anyone she meets, even strangers, looking for a few extra pats. Coco loves trail-running on Table Mountain with her parents too. Be aware that she will steal any socks she finds lying around. Coco is a very good dog.
+- name: Archie Puppy
+  picture: archie-scoville.jpg
+  human: Nelson Scoville
+  story: When Archie was just born he faced a life-threatening condition called puppy strangles. This caused severe swelling and sores and led to the loss of much of his fur. His early days were incredibly tough, and there were moments when we weren't sure if he would make it. But this little fighter defied the odds and pulled through. Today, he is thriving and has become a cherished member of our family. Despite the rough start, he has grown into a calm and gentle soul. He loves nothing more than to sleep at my feet while I work. He's also become a companion to my morning jogs where he not only leads the way but often pulls me along with excitement.
+- name: Tippy
+  picture: tippy.jpg
+  human: Chaoyue Zhao
+  story: Tippy is a red-eared slider. He spends most of his days swimming, fake sunbathing, and attempting to get out of his tank. He likes water plants with fuzzy surfaces, dry insects, and live snails. His favorite toy right now is the plastic attachment of his heater.
+- name: Bruce C.
+  picture: bruce-team-pic.jpg
+  human: Chris Childers
+  story: Bruce is a rescued mixed breed who loves people, playing, and eating in that order. When he's not playing tug-of-war, he's likely thinking about playing tug-of-war.
+- name: Zoja
+  picture: zoja-mewald.jpg
+  human: Mathias Ewald
+  story: Zoja is our sheep in wolf's clothing. While the breed (Hovawart) is known for being very protective she is over the top friendly to everyone she has met so far. She is even gently taking care of our pet chicken and, of course, our 13 months old daughter.
+- name: Kira
+  picture: kira1.jpg
+  human: Alison Lee
+  story: Kira is the sweetest guard dog you'll ever meet. She's a German Shepherd/Husky mix, rescued in 2020. She spends her days napping by the window and waiting for belly rubs. Outside of her daily walk by the beach, she loves exploring hiking trails all over California.
+- name: Frolic and Detour
+  picture: frolicanddetour.jpg
+  human: Brendan O'Connor
+  story: Frolic (the brown/orange one) and Detour (silver) are our Maine Coons; as of joining GitLab they were fourteen weeks old. Their favorite pastimes are running very fast, accepting "gentle" pets from a toddler, sitting on my laptop (Detour), and falling asleep on any available human (Frolic).
+- name: Sushi and Simon
+  picture: sushiandsimon.jpg
+  human: Emily Sahlani
+  story: Sushi (right) and Simon (left) are loving adopted brothers. Sushi was found taking shelter from a winter storm inside a car engine, surviving a long drive with only the loss of his tail. Simon joined the family a few years later, and the two quickly became inseparable. Together, they enjoy regular meals, basking in the sun, watching birds on TV, and inventing new ways to wake their humans at 5am.
+- name: Maggie
+  picture: maggie-gwassermann.jpg
+  human: Garret Wassermann
+  story: Maggie is not a fan of other cats but loves her humans and getting lots of attention, pets, and treats. Her favorite activity is sitting with her dad on the couch and reading a book or watching a show together.
+- name: Jarvis
+  picture: jarvis.jpg
+  human: Sasha Gazlay
+  story: Jarvis was born and adopted in 2012 after biting his soon to be human (who is a big fan of clear communication). Jarvis LOVES food and laps, and always gets his way. He is named after Jarvis the butler, who later becomes J.A.R.V.I.S in Iron Man (cause he's a tuxedo cat).
+- name: Harvey
+  picture: harveygazlay.jpg
+  human: Sasha Gazlay
+  story: Harvey was born and adopted in 2012 after jumping on the door of her shelter crate and meowing for attention. Harvey is very vocal, loves joing work calls, and is a complete cuddle bug. She's named after Harvey Dent (Two Face) from Batman. She also accepts "Princess Harvey."
+- name: Geralt
+  picture: geralt.jpg
+  human: Sasha Gazlay
+  story: Geralt was adopted in 2017 at 2 years old. A former street cat, he took many years to get used to humans as a source of affection, but now insists on lap-time. He's a chaotic energy, and is always getting into mischeif. He's named after the Witcher.
+- name: Addie and Kaylee
+  picture: addiekayleediaz.jpg
+  human: John Diaz
+  story: Addie (merle - white/grey) and Kaylee (tricolor - black/white/tan) are an inseparable pair. It doesn't matter what they are doing, they want to be doing it together. When they aren't keeping the backyard squirrel free, they enjoy family road trips and delicious treats.
+- name: Bullet
+  picture: bulletpetersen.jpg
+  human: Jeff Petersen
+  story: Bullet is a Czech German Shepherd with nuclear level energy. He's a complete goofball and lives for fetch. Bullet's always in protective mode but knows when to give cuddles and kisses.
+- name: Ray
+  picture: ray.jpg
+  human: Evgeny Rudinsky
+  story: Ray is a French Bulldog (aka "Frenchie"), muscular dog with a smooth coat, compact build, and a distinctive "bat ear" appearance. Ray is affectionate and playful nature, and is an excellent companion. She is adaptable, intelligent, and have a charming personality, enjoys lounging around the house, playing with toys, and is very good with our children. Despite her small size, she have a big heart and a lot of love to give.
+- name: Paco
+  picture: paco-tloughlin.jpg
+  human: Thomas Loughlin
+  story: Paco is a pug who is the most energetic dog in Europe (unconfirmed), he likes to eat, play and mostly sleep. He has short bursts of massive energy throughout the day, and then sleeps for the remaining 20 hours. Paco barks at everything, including the actors on the TV as if they are in the living room. Loves belly rubs and is a dog food connoisseur.
+- name: Pippin
+  picture: pippin.jpg
+  human: Amy Qualls
+  story: Our murdertuxie is a sullen teenager in formalwear. No petting! No cuddles! Only butt bongos and shin-bonks, please and thank you! He is mischievous, obsessed with shoes, and too smart for his own good. Also, we pretend to not notice that he sleeps on our feet every night, so he can keep his dignity.
+- name: Kuro
+  picture: kuro.jpg
+  human: Ghel Rosal
+  story: Kuro is a very clever and kind cat. Whenever we scold him when he did some naughty things, he would quickly run to hide. Then, he would surprisingly jump to bump you as if he is taking a revenge for being scolded. He likes to eat! He knows if its already time for his schedule to eat and call you. He would act sweet when you were making his food, then hide from you once he is full. Kuro is our little baby, our home brighten up after he came.
+- name: Koda
+  picture: koda.jpg
+  human: Nathan Dubord
+  story: Koda is a fiercely loyal and obedient Shiba Inu with a touch of stubbornness. He has a cat-like personality, always eager to climb anything he can get his paws on. Water is his absolute favorite, and he's usually in the shower before you've even turned the tap on. We like to joke that it's just his Shiba Inu instinct for cleanliness in action!
+- name: Mishka
+  picture: mishka.jpg
+  human: Tim Cheeney
+  story: Mishka is a Wooly Husky, a bundle of energy, and a very good boy. He loves people and is incredibly scared of fireworks. Mishka also has a lovely singing voice.
+- name: Whimsy
+  picture: whimsy.jpg
+  human: Tim Cheeney
+  story: Whimsy lives up to her name with her curious nature. She's a loving Siberian Husky who lives for belly rubs. Her voice is also quite lovely, performing beautiful duets with Mishka.
+- name: Kakai
+  picture: kakai.jpeg
+  human: Melissa Magoma
+  story: Kakai is a 12 year old domestic tabby/African wildcat mix. He is incredibly majestic and smart - for example, he's typing this right now. When he's not laying in the sun or in his bed, he can be found attempting to convince everyone that it's dinner time. His superpowers include staring off into space and always sitting in your chair when you desperately need to be in a meeting.
+- name: Enoch
+  picture: enochdunn.jpg
+  human: Andrew Dunn
+  story: My name is Enoch and I'm a young Bernedoodle who loves his whole family and encourages everyone to be active and healthy.
+- name: Bengie
+  picture: bengieshechtman.jpeg
+  human: Nikki Shechtman
+  story: My name is Bengie and I'm a chihuahua mix. I enjoy chicken, walks, and bike rides.
+- name: Data
+  picture: data.jpg
+  human: Sayo Bittencourt
+  story: My name is Data and I'm not afraid of anything!! I'll bite your toes when I'm hungry and disturb my sister Troi whenever I have the chance. Before I was adopted my foster named me after the Star Trek character Data and that was all it took for my human parents to adopt me. One day I ate my mama's closed package of a Kit Kat and I couldn't believe how tasty it was, but mama screamed at me thinking I was going to die but as I said, I fear nothing!! Didn't even get a bad tummy.
+- name: Troi
+  picture: troi.jpg
+  human: Sayo Bittencourt
+  story: My name is Troi and, unlike my brother Data, I'm afraid of everything. If you walk down the stairs in my human parents house, I'll wait patiently in the windowsill so you can pay the toll (give me a pet). Although I'm afraid of most things, I love a good belly rub while watching some comedy tv show on the couch. I don't like human food at all, even if it's a rotisserie chicken! I'm named after a beautiful Star Trek character, and I suppose it's because I'm beautiful too - my human parents say I am gorgeous every day!!
+- name: Benji
+  picture: benji-henri.jpg
+  human: Marissa Henri
+  story: Benji is a Golden Retriever living his best life in the Bay. He loves swimming in the ocean, meeting as many new people as possible, and snuggling his giant banana slug plushie toy. Benji is a very good boy.
+- name: Zelda
+  picture: zelda.jpg
+  human: Padraig O Neill
+  story: Zelda is a spaniel terrier mix who will do anything for a belly rub or a treat. Zelda has 2 modes, sleeping on the couch lazily and chasing squirrels like crazy.
+- name: Fircha and Mila
+  picture: fircha-mila.jpg
+  human: Ugur Dokmeci
+  story: Meet Fircha and Mila, two inseparable companions. Fircha, the feisty and cheerful Yorkshire Terrier, may be small in size but has a big heart and an even bigger attitude. Always alert and full of energy, he's the spark of the duo. By his side is Mila, the gentle and wise Labrador, whose calm demeanor and affectionate nature make her the perfect balance to Fircha's spirited character. Together, they bring joy, laughter, and warmth to every day.
+- name: Gwen and Meena
+  picture: gwenmeena.jpeg
+  human: Bindu Upadhyay
+  story: Hi! I am Gwen (the adorable kitten) and this is Meena (my mom). We were adopted by our cat mom and dad in June 2024. I am curious and energetic. My mom is very chill and loves getting pets (not me, I am independent). My cat mom says she is so happy to have us at home (even though I broke a few things!). Now that she is working from home, she does disturb us a bit more but I secretly love getting some playtime with her.
+- name: Boo
+  picture: boo.jpg
+  human: Jordan Dubié
+  story: Boo loves to appear on camera, so you'll probably get to see her. Her favorite place to sleep is in front of/on the keyboard. When she's not watching birds or sleeping, she meows.
+- name: Archie & Yumi
+  picture: archieandyumi.jpg
+  human: Dennis Meister
+  story: Archie (Grey/White) and Yumi (Black) are two majestic Maine Coon cats, fluffy rulers of the sofa kingdom. They adore their human tin openers, mostly when food magically appears. Both demanding cuddles only on their royal schedule. Together, they are adorable chaos wrapped in fur and whiskers.
+- name: Lily
+  picture: lilylabrador.jpg
+  human: Asherah Connor
+  story: 'Her name is Lily. She is a Labra-dog. She is 10 years old. She loves
+
+    vegetable including carrot. She is silly. She is sassy. She is extremely
+
+    friendly. She likes to cuddle up on the couch-ing and sleep forever. She
+
+    likes to sleep in.'
+- name: Luna
+  picture: luna-mwager-gitlab.jpg
+  human: Michael Wager
+  story: "Her name is Luna. She's a lucky cat who's already used up a few of her nine \nlives — once after falling from the second floor and once after a run-in with a \ncar — so now she's happily retired to a cozy indoor life of naps, \nsnacks, and supervising humans."
+- name: Spike
+  picture: spike.jpg
+  human: Daniel Ocando
+  story: 'Spike is a very energetic and happy Jack Rusell Terrier.
+
+    When he is not desperately demanding treats or feed you can find him chilling in the sofa
+
+    or in their human parent''s bed. He really likes to cuddle up with his human parents,
+
+    specially when it''s time to go to bed and sleep.'
+- name: Obi One
+  picture: obione.jpg
+  human: Alessandro Banfi
+  story: 'Obi One is a very happy cat.
+
+    When he is not chilling in the sofa, he''s looking for food or have some attention.
+
+    He loves to stay close to his human parent, specially when he''s searching for snuggles.'
+- name: Kyaru
+  picture: kyaru.jpg
+  human: Joey Wu
+  story: "Kyaru is very laid-back and sweet. She is very food motivated, and does not move much throughout the day.\nAlthough she can be a bit standoff-ish at first, she loves to be pampered. \nShe especially loves having her cheecks and chin scratched. She is also a professional biscuit maker.\nHoping to get her to exercise more one day."
+- name: Shiroko
+  picture: shiroko.jpg
+  human: Joey Wu
+  story: 'Shiroko is very energetic, mischievous, and talkative. She loves to play and eat things she''s not supposed to.
+
+    She spends most of her day looking for a playmate (at the expense of Kyaru, who often does not want to play).
+
+    When she''s calm, she loves to cuddle. She will often meow for no reason other than to meow.'
+- name: Rosie
+  picture: rosie-booper.jpg
+  human: Curt Marker
+  story: 'Rosie is a mini-goldendoodle and she is a good girl.
+
+    She enjoys bones, tiny balls, and booping things.'
+- name: Loki
+  picture: loki.jpg
+  human: Chris Sanders
+  story: 'Loki is a bit shy especially with new people but loves to be pet. He also enjoys chewing on apple sticks,
+
+    rolling blankets up into a ball, and hanging out with his bonded partner Runa. Loki is a mini rex and even for
+
+    a mini he''s small, he has very soft fur typical of a rex. Loki free roams the house during the day and can
+
+    frequently be found under my dining room table or anywhere he can find a patch of sun.'
+- name: Runa
+  picture: runa.jpg
+  human: Chris Sanders
+  story: "Runa is a ruby eye white (REW) she is friendly and very motivated by treats. She sometimes like to be pet\nbut mostly likes to explore including under/inside of furniture if allowed. Runa came to us via speed dating\nat our local rescue. Loki and her got along immediately and formed a strong bond shortly after being brought\nhome. Now she spends her days free roaming, often napping under the dining room table, and occasionally \non a couch testing if she can burrow under the cushions without getting noticed."
+- name: Mia Devi
+  picture: mia-devi.jpg
+  human: Uma Chandran
+  story: 'Mia Devi is a Great Pyrenees based in Ontario, Canada. She is the daughter of Goose and Duncan,
+
+    livestock guardians and coyote chasers, and granddaughter of Dante, fighter of bears. Despite
+
+    her lineage, Mia deals with regular anxiety and fear, but we''ve learned how to manage it
+
+    together. She loves going on hikes and playing at the dog park with her friends.'
+- name: Milo
+  picture: milohughes.jpg
+  human: Thomas Hughes
+  story: This is Milo. Milo's one of the most playful and social cats you'll ever meet. He loves company, and will follow you from room to room, begging to be on your lap with a blanket under him so he can make biscuits and fall asleep. He'll often make appearances in video calls either vocally with his very loud meowing, or occasionally by making an appearance on camera as he gets situated on my lap.
+- name: Honey
+  picture: honey.jpg
+  human: Sybe Tigchelaar
+  story: "Honey collects (and loses) tennis balls like its her full-time job. \nRemembers every place she's ever gotten a treat, needs a daily park visit,\nand will throw a fit (real kind, not the TikTok kind) over wrong turns."
+- name: Bodhi
+  picture: bodhi.jpg
+  human: Mathieu Weary
+  story: Bodhi is a whoodle (wheaton terrier/poodle mix). He is consistently a top performer at his full time job - distinguished nap specialist. When he's not on the clock, he loves to be goofy, go on walks, or sprint down mountain bike trails with his dad and friends.
+- name: Tequila
+  picture: tequila.jpg
+  human: Manuel Schönlaub
+  story: Tequila is a Spanish Water Dog. She loves water in all its forms, even snow. So she's really happy living close to a river. She also loves search games in the garden, alerting us to anyone who knocks on the door, cuddling on the couch, and sleeping under my desk.
+- name: Masha
+  picture: masha.jpg
+  human: Yasaman Shirdast
+  story: Masha is the incarnation of destruction and chaos. Luckily for humanity, she takes a lot of naps and is scared of big groups. Her hobbies include hunting, bird watching and inciting riots ( for food ). She is also fluent in French.
+- name: Gomashio
+  picture: gomashio.jpg
+  human: Hiroyuki Wakabayashi
+  story: Gomashio is a Chihuahua-Maltese mix who is a bit timid. Due to his past experiences with his previous owner, he was initially wary of adult men, but we eventually bonded over time, and he was such a sweet dog who would always come running to greet me when I got home. He loved going for walks, and I have so many wonderful memories of all the places we visited together.
+- name: Dragisha
+  picture: dragisha.jpg
+  human: Petar Prokic
+  story: An overly enthusiastic male Goldendoodle that purrs like a cat and loves attention.

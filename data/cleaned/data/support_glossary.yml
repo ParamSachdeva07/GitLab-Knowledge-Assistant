@@ -1,0 +1,345 @@
+# for configuration see layouts/shortcodes/support-glossary.html
+#
+# Guidelines:
+# 
+# 1. Add new definitions to the end of the support_glossary.yml. Entries do not need to be in alphabetical order.
+# 2. Be sure to search for an acronym to ensure it does not already exist.
+# 3. Use only one entry per acronym key. If there are multiple possible definitions for one acronym, create a separate
+#    entry for each one.
+# 4. Use sentence case for term expansions
+# 5. Keep info as concise as possible, and avoid adding new definition content. Instead, link to supporting handbook or
+#    docs pages.
+# 6. Leave a new line at the end of the file
+#
+# Example:
+#
+# - acronym: MWPS
+#   term:
+#    - Merge when pipeline succeeds
+#   info: |
+#     A common phrase used by GitLab team members when adding approved MRs to the merge train, when
+#     [auto-merge when using merge trains](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html#auto-merge-when-using-merge-trains)
+#     is configured
+#
+
+
+- acronym: FRT
+  term: First Response Time
+  info: |
+    Support have a first response time Service Level Agreement (SLA) on all new tickets from subscribed customers.
+
+- acronym: NRT
+  term: 
+   - Next Response Time
+   - Next Reply Time
+  info: |
+    Support have a next response time Service Level Objective (SLO) on all subsequent replies to tickets from subscribed
+    customers. 
+
+- acronym: OKR
+  term: Objectives and Key Results
+  info: |
+    GitLab uses [OKRs](https://handbook.gitlab.com/handbook/company/okrs/) to support achieving our strategic goals. 
+
+- acronym: CMOC
+  term: Communications Manager On-Call
+  info: |
+    Support is responsible for keeping customers informed in support of our incident response process when there is an
+    active incident on gitlab.com. The role has several
+    [responsibilities](https://handbook.gitlab.com/handbook/support/workflows/cmoc_workflows/).
+
+- acronym: CEOC
+  term: Customer Emergencies On-Call
+  info: |
+    [How to Perform Customer Emergencies Duties](https://handbook.gitlab.com/handbook/support/workflows/customer_emergencies_workflows/)
+
+- acronym: MVC
+  term: Minimal Valuable Change
+  info: |
+    [Minimal valuable change](https://handbook.gitlab.com/handbook/product/product-principles/#the-minimal-valuable-change-mvc)
+    was previously referred to as the minimal _viable_ change.
+    [This language was updated 2024-07-31](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/5520).
+
+- acronym: PD
+  term: PagerDuty
+  info: |
+    See [How Support On-call works](https://handbook.gitlab.com/handbook/support/on-call/#how-support-on-call-works) for
+    more information about how GitLab Support uses PagerDuty.
+
+- acronym: SLA
+  term: Service Level Agreement
+  info: |
+    GitLab Support [service level agreements](https://about.gitlab.com/support/#service-level-agreements) might differ
+    from other definitions in other departments.
+
+- acronym: SLO
+  term: Service Level Objective
+  info: |
+    Support has an internal service level objective on all subsequent responses to tickets after the first response. We use the SLA timer in Zendesk to track this. 
+
+- acronym: ASE
+  term: Assigned Support Engineer
+  info: |
+    Customers can subscribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/).
+
+- acronym: CES
+  term: 
+   - Customer Effort Score
+   - Candidate Experience Specialist
+  info: |
+    In the support context, customer effort score is an approach to measuring customer satisfaction.  In the wider GitLab context, we also have [candidate experience specialists](https://handbook.gitlab.com/job-description-library/people-group/candidate-experience/) who are part of our recruiting team. 
+
+- acronym: DRI
+  term: Directly Responsible Individual
+  info: | 
+    [Directly responsible individuals](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/) at GitLab own particular projects, initiatives, or activity.
+
+- acronym: MFA
+  term: Multi-Factor Authentication
+  info: |
+    A commonly used [industry term](https://en.wikipedia.org/wiki/Multi-factor_authentication). 
+
+- acronym: MTTR
+  term: Mean Time To Resolution
+  info: | 
+    A measurement of the average time it takes for a ticket to progress from creation to solved.
+
+- acronym: SBOM
+  term: Software Bill Of Materials
+  info: |
+    You can read all about SBOMs in our [blog post](https://about.gitlab.com/blog/2022/10/25/the-ultimate-guide-to-sboms/).
+
+- acronym: SSAT
+  term: Support Satisfaction
+  info: |
+    We use SSAT to capture customer feedback and measure customer satisfaction.
+
+- acronym: CSM
+  term: Customer Success Manager
+  info: |
+    CSMs are accountable for customer adoption, measurable outcomes, customer satisfaction, and creating true customer advocacy. You can read more [here](https://handbook.gitlab.com/handbook/customer-experience/csm/#what-is-a-customer-success-manager-csm-at-gitlab)
+
+- acronym: SRE
+  term: Site Reliability Engineer
+  info: |
+    Site Reliability Engineers (SREs) are responsible for keeping all user-facing services and other GitLab production systems running smoothly. You can read more [here](https://handbook.gitlab.com/job-description-library/engineering/infrastructure/site-reliability-engineer/)
+
+- acronym: QBR
+  term: Quarterly Business Review
+  info: |
+    A once-per-quarter meeting between a vendor (us) and their client (customer) to go over key topics. Common discussion points include vendor product and service delivery since the last meeting, progress on goals, problems that need to be addressed, and changes that need to be made. The QBR is often vital to convincing the customer to renew their contract or subscription.
+
+- acronym: SPS
+  term: Success Plan Services
+  info: |
+    See this [internal Handbook page](https://internal.gitlab.com/handbook/customer-experience/success-services/), which is the SSoT for SPS.
+
+- acronym: APAC
+  term: Asia-Pacific
+  info: |
+    [Asia-Pacific](https://en.wikipedia.org/wiki/Asia%E2%80%93Pacific) on Wikipedia.
+
+- acronym: EMEA
+  term: Europe, Middle East, and Africa
+  info: |
+    [Europe, the Middle East and Africa](https://en.wikipedia.org/wiki/Europe,_the_Middle_East_and_Africa) on Wikipedia.
+
+- acronym: AMER
+  term: Americas
+  info: |
+    See "AMER" in [List of country groupings](https://en.wikipedia.org/wiki/List_of_country_groupings) on Wikipedia.
+
+- acronym: AQC
+  term: Active Queue Carry
+  info: |
+    **Experimental**: AMER is exploring a metric called Active Queue Carry, which is the sum of tickets currently assigned to an engineer that are `open`, `pending`, `solved`, and `on-hold`. Tickets stay in a solved state for 7 days, so Active Queue Carry represents the most recent solved work.
+
+- acronym: ARR
+  term: Annual Recurring Revenue
+  info: |
+    See ARR in [Sales Term Glossary](https://handbook.gitlab.com/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr).
+
+- acronym: KB
+  term: Knowledge Base
+  info: |
+    A repository of solutions to commonly-encountered problems, created and maintained by Support Engineers. May also be used to refer to individual articles.
+
+- acronym: KCS
+  term: Knowledge Centered Service
+  info: |
+    An industry standard for indetifying, creating, and updating articles within a knowledge base. [Official documentation](https://www.serviceinnovation.org/kcs/).
+
+- acronym: STAR
+  term: Support Ticket Attention Requests
+  info: |
+    STAR is used when a support ticket needs extra visibility or prioritization. This is typically communicated in the #support_ticket-attention-requests Slack channel.
+
+- acronym: SSE
+  term: Senior Support Engineer
+  info: |
+    A senior-level support engineer role within GitLab Support. SSEs typically handle more complex technical issues and may mentor other support engineers.
+
+- acronym: SAST
+  term: Static Application Security Testing
+  info: |
+    A security testing method that scans source code for vulnerabilities without running the application. 
+
+- acronym: DAST
+  term: Dynamic Application Security Testing
+  info: |
+    A security testing method that tests running applications for security flaws by simulating attacks. 
+
+- acronym: GET
+  term: GitLab Environment Toolkit
+  info: |
+    A toolkit provided by GitLab for setting up and managing GitLab environments. GET helps with deployment and configuration of GitLab instances.
+
+- acronym: LDAP
+  term: Lightweight Directory Access Protocol
+  info: |
+    An industry-standard protocol for accessing and maintaining distributed directory information services. Commonly used for authentication and authorization in enterprise environments.
+
+- acronym: k8s
+  term: Kubernetes
+  info: |
+    Abbreviated as k8s (k + 8 letters + s), Kubernetes is a container orchestration platform that manages Docker containers across multiple servers.
+
+- acronym: GKE
+  term: Google Kubernetes Engine
+  info: |
+    Google's managed Kubernetes service that provides a hosted Kubernetes environment. GKE simplifies cluster management and integrates with other Google Cloud services.
+
+- acronym: JWT
+  term: JSON Web Token
+  info: |
+    A compact format for transferring claims between any two parties. JWTs are commonly used for authentication and information exchange in web applications.
+
+- acronym: SGG
+  term: Support Global Group
+  info: |
+    A reference to GitLab's global support organization structure. SGG encompasses support teams across different regions and time zones.
+
+- acronym: SME
+  term: Subject Matter Expert
+  info: |
+    An individual with deep knowledge and expertise in a specific area or technology. SMEs are often consulted for complex technical issues requiring specialized knowledge.
+
+- acronym: SSC
+  term: Support Stable Counterpart
+  info: |
+    [Support engineers](https://handbook.gitlab.com/handbook/support/support-stable-counterparts/) who work closely with development teams to provide expertise and feedback.
+
+- acronym: HA
+  term: High Availability
+  info: |
+    A system design approach that ensures a service remains operational and accessible even when individual components fail. HA systems minimize downtime and maintain service continuity.
+
+- acronym: gprod
+  term: Google Production
+  info: |
+    A reference to production environments or services running on Google Cloud Platform. 
+
+- acronym: T&S
+  term: Trust and Safety
+  info: |
+    A [team](https://handbook.gitlab.com/job-description-library/security/trust-and-safety/) responsible for maintaining platform safety, preventing abuse, and ensuring compliance with policies and regulations. T&S teams work to protect users and maintain platform integrity.
+
+- acronym: BBM
+  term: Batched Background Migrations
+  info: |
+    See [Batched Background Migration docs page](https://docs.gitlab.com/development/database/batched_background_migrations/).
+
+- acronym: DAP
+  term: Duo Agent Platform
+  info: |
+    See [Duo GitLab Agent Platform docs page](https://docs.gitlab.com/user/duo_agent_platform/).
+
+- acronym: SHM
+  term: Self-Hosted Models
+  info: |
+    See [GitLab Duo Self-Hosted docs page](https://docs.gitlab.com/administration/gitlab_duo_self_hosted/).
+
+- acronym: MCP
+  term: Model Context Protocol
+  info: |
+    See [Model Context Protocol docs page](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/).
+
+- acronym: AIGW
+  term: AI gateway
+  info: |
+    See [AI gateway docs page](https://docs.gitlab.com/administration/gitlab_duo/gateway/).
+
+- acronym: LSP
+  term: Language Server Protocol
+  info: |
+    See [GitLab Language Server docs page](https://docs.gitlab.com/editor_extensions/language_server/).
+
+- acronym: GKG
+  term: GitLab Knowledge Graph
+  info: |
+    See [GitLab Knowledge Graph docs page](https://docs.gitlab.com/user/project/repository/knowledge_graph/).
+
+- acronym: RAG
+  term: Retrieval-Augmented Generation
+  info: |
+    See [RAG in GitLab Duo Glossary](https://docs.gitlab.com/development/ai_features/glossary/#rag-retrieval-augmented-generation).
+
+- acronym: LLM
+  term: Large Language Model
+  info: |
+    See [LLM in GitLab Duo Glossary](https://docs.gitlab.com/development/ai_features/glossary/#llm).
+
+- acronym: PS
+  term: Professional Services
+  info: |
+    [The Professional Services team](https://handbook.gitlab.com/handbook/customer-experience/professional-services-engineering/) at GitLab is a part of the Customer Success department helping customers achieve value faster.
+
+- acronym: CX
+  term: Customer Experience
+  info: |
+    See [CX in Customer Experience page](https://handbook.gitlab.com/handbook/customer-experience/).
+
+- acronym: SWIR
+  term: Support Week In Review
+  info: |
+    See [Support Week In Review project](https://gitlab.com/gitlab-com/support/readiness/support-week-in-review).
+
+- acronym: CS
+  term: Customer Success
+  info: |
+    Often used to refer to [Customer Success team](https://handbook.gitlab.com/handbook/customer-experience/csm/segment/).
+
+- acronym: RWT
+  term: Requester wait time
+  info: |
+    See [Metrics definition](https://handbook.gitlab.com/handbook/security/customer-support-operations/zendesk/metrics-definitions/).
+
+- acronym: MBR
+  term: Monthly Business Review
+  info: |
+    See [Support Monthly Business Review](https://handbook.gitlab.com/handbook/support/#support-monthly-business-review-mbr).
+
+- acronym: CSAT
+  term: Customer Satisfaction Score
+  info: |
+    See [Customer Satisfaction Surveys](https://handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/nps-csat-scores/).
+
+- acronym: SMOC
+  term: Support Manager On-call
+  info: |
+    See [How to be a Support Manager On-call](https://handbook.gitlab.com/handbook/support/workflows/support_manager-on-call/).
+
+- acronym: PAT
+  term: Personal Access Token
+  info: |
+    See [Personal Access Token](https://docs.gitlab.com/user/profile/personal_access_tokens/).
+
+- acronym: PrAT
+  term: Project Access Token
+  info: |
+    See [Project Access Token](https://docs.gitlab.com/user/project/settings/project_access_tokens/).
+
+- acronym: RFH
+  term: Typically refers to Request For Help issues. 
+  info: |
+    See [The Request For Help Landing Page](https://handbook.gitlab.com/handbook/support/workflows/how-to-get-help/#the-request-for-help-landing-page).

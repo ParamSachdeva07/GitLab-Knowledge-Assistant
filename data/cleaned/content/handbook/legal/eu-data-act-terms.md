@@ -1,0 +1,15 @@
+---
+title: EU Data Act Supplemental Terms
+---
+
+These EU Data Act Supplemental Terms (“EU Data Act Terms’’) are between GitLab Inc. with offices at 268 Bush Street, Suite 350, San Francisco, CA 94104 (or, if a different GitLab Affiliate as listed as “GitLab” on an Order Form) (“GitLab”), and the EU Entity that has entered into GitLab’s Subscription Agreement, or such other written agreement between the parties covering the use of GitLab’s Software, Supplemental Services, products and other services (the “Agreement”).  These EU Data Act Terms are incorporated within the Agreement.  Capitalized terms not otherwise defined herein shall have the meaning set forth in the Agreement.
+
+## 1. DEFINITION
+
+“EU Entity” means any Customer for whom the EU Data Act (Regulation (EU) 2023/2854 of the European Parliament and of the Council of 13 December 2023) applies.
+
+"Transition Services" means GitLab’s reasonable assistance provided to an EU Entity Customer to: (a) switch to another provider of the same service type; or (b) implement multi-cloud deployment; or (c) migrate to customer on-premises infrastructure.
+
+## 2. TRANSITION SERVICES
+
+Customer may request Transition Services by providing sixty (60) days' written notice to GitLab ("Transition Notice Period"). Following expiration of the Transition Notice Period, GitLab shall provide Transition Services for thirty (30) days, provided that either party may request an extension of up to seven (7) months, and if GitLab requires an extension due to technical infeasibility, GitLab must justify such request to Customer within fourteen (14) business days of receiving the Transition Notice (collectively, the “Transition Period”). During the Transition Period, GitLab shall continue to maintain the continuity of service, the service levels and security of the Software and Supplemental Services as set forth in the Agreement, provide assistance as described in GitLab's Documentation, and enable Customer to export data in structured, commonly-used formats. Upon completion of the Transition Period, the Agreement shall terminate and Customer shall have thirty (30) days to retrieve its Customer Content and data in accordance with the procedures at https://handbook.gitlab.com/handbook/legal/eudataact, unless the parties mutually agree to extend such period. GitLab shall provide written confirmation of said termination (email being sufficient). If Customer desires, it may purchase additional Professional Services beyond the reasonable Transition Services provided at GitLab’s then current rates, subject to the parties’ mutual agreement and execution of a Statement of Work. If Customer requests Transition Services prior to the end of the then-current Subscription Term, Customer shall pay all Subscription Fees for the remainder of such Subscription Term(s), with no credits or refunds available. GitLab maintains current information regarding transition procedures, technical requirements, and data portability and deletion of data following termination at https://handbook.gitlab.com/handbook/legal/eudataact.

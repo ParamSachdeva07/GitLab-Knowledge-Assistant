@@ -1,0 +1,171 @@
+- name: Company
+  url: /handbook/company/
+  svg: '<svg fill="none" height="32" viewBox="0 0 32 32" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300" style="" role="img" aria-hidden="true" data-icon-name="" aria-id="tanukiHomeDesktop" data-v-c3411281="" data-v-1fc80711=""><path fill="#E24329" d="M31.462 12.779l-.045-.115-4.35-11.35a1.137 1.137 0 00-.447-.541 1.163 1.163 0 00-1.343.071c-.187.15-.322.356-.386.587l-2.94 9.001h-11.9l-2.941-9a1.138 1.138 0 00-1.045-.84 1.153 1.153 0 00-1.13.72L.579 12.68l-.045.113a8.09 8.09 0 002.68 9.34l.016.012.038.03 6.635 4.967 3.28 2.484 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484 6.673-4.997.018-.013a8.088 8.088 0 002.69-9.352z"></path><path fill="#FC6D26" d="M31.462 12.779l-.045-.115a14.748 14.748 0 00-5.856 2.634l-9.553 7.24A11225.6 11225.6 0 0022.1 27.14l6.673-4.997.019-.013a8.09 8.09 0 002.67-9.352z"></path><path fill="#FCA326" d="M9.908 27.14l3.275 2.485 1.994 1.51a1.35 1.35 0 001.627 0l1.994-1.51 3.282-2.484s-2.835-2.14-6.092-4.603l-6.08 4.603z"></path><path fill="#FC6D26" d="M6.435 15.305A14.712 14.712 0 00.58 12.672l-.045.113a8.09 8.09 0 002.68 9.347l.016.012.038.03 6.635 4.967 6.105-4.603-9.573-7.233z"></path></svg>'
+  links:
+    - name: Values
+      url: /handbook/values/
+    - name: Mission
+      url: /handbook/company/mission/
+    - name: Communication
+      url: /handbook/communication/
+    - name: About the Handbook
+      url: /handbook/about/
+
+- name: People Group
+  url: /handbook/people-group/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mb-16" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-feb12472=""><g clip-path="url(#clip0_7608_14939)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M6.91517 18.3433C7.04539 18.5594 7.13173 18.7991 7.16924 19.0486C7.20675 19.2982 7.1947 19.5526 7.13378 19.7975C7.07286 20.0424 6.96427 20.2728 6.81421 20.4757C6.66415 20.6785 6.47558 20.8498 6.25927 20.9797L3.9748 22.4067C3.54024 22.6711 3.01851 22.7522 2.52419 22.6322C2.02988 22.5123 1.60339 22.201 1.33838 21.7668V21.7668C1.20816 21.5507 1.12183 21.311 1.08432 21.0615C1.04681 20.812 1.05886 20.5575 1.11978 20.3126C1.18069 20.0678 1.28929 19.8373 1.43934 19.6345C1.5894 19.4316 1.77798 19.2603 1.99429 19.1304L4.27876 17.7034C4.71332 17.439 5.23504 17.3579 5.72936 17.4779C6.22368 17.5979 6.65017 17.9091 6.91517 18.3433Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M22.0475 23.0114C22.4593 23.244 22.7764 23.6137 22.9434 24.0562C23.1105 24.4987 23.117 24.9857 22.9617 25.4325C22.8064 25.8792 22.4993 26.2573 22.0938 26.5007C21.6883 26.7442 21.2103 26.8376 20.743 26.7647"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M16.2613 15.1182L26.1799 20.711C26.411 20.841 26.6142 21.0153 26.778 21.2239C26.9417 21.4324 27.0627 21.6712 27.1342 21.9266C27.2057 22.182 27.2261 22.4489 27.1944 22.7122C27.1627 22.9754 27.0794 23.2299 26.9494 23.461C26.8194 23.6921 26.6451 23.8953 26.4365 24.059C26.2279 24.2227 25.9891 24.3438 25.7338 24.4152C25.4784 24.4867 25.2115 24.5072 24.9482 24.4754C24.6849 24.4437 24.4305 24.3605 24.1994 24.2304L14.2808 18.6409"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M22.2151 13.7936L26.0034 15.9949C26.2345 16.1247 26.4378 16.2988 26.6016 16.5072C26.7654 16.7155 26.8866 16.9542 26.9582 17.2094C27.0298 17.4646 27.0504 17.7314 27.0189 17.9946C26.9874 18.2578 26.9043 18.5122 26.7745 18.7433C26.6447 18.9744 26.4706 19.1776 26.2622 19.3414C26.0538 19.5053 25.8152 19.6264 25.56 19.698C25.3048 19.7696 25.038 19.7903 24.7748 19.7587C24.5116 19.7272 24.2572 19.6442 24.0261 19.5144"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M0.901975 16.8139C0.339699 14.4657 0.688409 11.9915 1.87783 9.89014"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M1.87823 9.89016C4.51785 5.20603 9.23718 3.66705 14.1037 4.58532"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M27.3019 22.1572C29.2008 20.7875 30.5336 18.7711 31.0495 16.4873C31.5654 14.2036 31.2288 11.81 30.1031 9.75713C28.9774 7.70423 27.1401 6.13357 24.9372 5.34075C22.7342 4.54793 20.3174 4.58763 18.1417 5.45237L10.4276 9.66936C7.97353 11.0132 11.7074 13.8288 14.7374 12.1202L17.7321 10.4308C18.5318 10.9008 19.4304 11.1771 20.356 11.2377C21.2815 11.2982 22.2084 11.1414 23.0626 10.7796"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M17.8091 25.3119C17.9391 25.5282 18.0253 25.7681 18.0626 26.0178C18.0998 26.2674 18.0875 26.522 18.0263 26.7668C17.9651 27.0117 17.8562 27.2421 17.7058 27.4449C17.5554 27.6476 17.3665 27.8187 17.15 27.9483L14.8655 29.3753C14.4309 29.6397 13.9092 29.7208 13.4149 29.6009C12.9206 29.4809 12.4941 29.1696 12.2291 28.7354V28.7354C12.0988 28.5193 12.0125 28.2796 11.975 28.0301C11.9375 27.7806 11.9495 27.5261 12.0105 27.2813C12.0714 27.0364 12.18 26.8059 12.33 26.6031C12.4801 26.4002 12.6687 26.2289 12.885 26.099L15.1726 24.672C15.6072 24.4076 16.1289 24.3265 16.6232 24.4465C17.1176 24.5665 17.5441 24.8777 17.8091 25.3119V25.3119Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M13.8292 23.1969C14.0926 23.6312 14.1731 24.1522 14.0532 24.6457C13.9332 25.1393 13.6226 25.5652 13.1893 25.8301L10.1177 27.7499C9.68318 28.0143 9.16145 28.0954 8.66713 27.9754C8.17282 27.8554 7.74633 27.5441 7.48132 27.11V27.11C7.21934 26.6737 7.14127 26.1513 7.26426 25.6576C7.38725 25.1638 7.70124 24.7391 8.13723 24.4767L11.2088 22.557C11.4251 22.4269 11.665 22.3408 11.9146 22.3035C12.1643 22.2662 12.4188 22.2786 12.6637 22.3398C12.9086 22.401 13.139 22.5099 13.3417 22.6603C13.5445 22.8107 13.7155 22.9995 13.8452 23.2161L13.8292 23.1969Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M4.47925 22.1572L7.67878 20.1127C8.11335 19.8483 8.63507 19.7672 9.12939 19.8872C9.62371 20.0072 10.0502 20.3184 10.3152 20.7526C10.4451 20.97 10.5307 21.211 10.5671 21.4616C10.6034 21.7122 10.5899 21.9676 10.5271 22.2129C10.4643 22.4583 10.3537 22.6888 10.2014 22.8912C10.0492 23.0936 9.85843 23.2639 9.6401 23.3922L6.58454 25.3567C6.37372 25.4957 6.13755 25.5917 5.88956 25.6393C5.64157 25.6868 5.38663 25.685 5.13936 25.6339C4.89208 25.5828 4.65731 25.4834 4.44851 25.3414C4.23971 25.1994 4.06097 25.0176 3.92253 24.8064V24.8064C3.64651 24.3809 3.55013 23.8634 3.65444 23.367C3.75876 22.8706 4.05528 22.4357 4.47925 22.1572V22.1572Z"></path></g><defs><clipPath id="clip0_7608_14939"><rect width="31.9954" height="31.9954" fill="white" transform="translate(0 0.995361)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Policies
+      url: /handbook/people-policies/
+    - name: Hiring
+      url: /handbook/hiring/
+    - name: Diversity (DIB)
+      url: /handbook/company/culture/inclusion/
+    - name: Total Rewards
+      url: /handbook/total-rewards/
+    - name: Learning & Development
+      url: /handbook/people-group/learning-and-development/
+
+- name: Product
+  url: /handbook/product/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mb-16" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-feb12472=""><g clip-path="url(#clip0_7608_14911)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M15.9969 22.0496L21.3337 18.1686C21.4056 18.1156 21.4589 18.0413 21.4859 17.9562C21.5129 17.8712 21.5123 17.7797 21.4841 17.695L19.6444 12.0254C19.6294 11.984 19.602 11.9482 19.5659 11.9229C19.5298 11.8976 19.4868 11.884 19.4428 11.884C19.3987 11.884 19.3557 11.8976 19.3197 11.9229C19.2836 11.9482 19.2562 11.984 19.2412 12.0254L18.019 15.7945H13.9524L12.727 12.0254C12.712 11.984 12.6846 11.9482 12.6485 11.9229C12.6124 11.8976 12.5694 11.884 12.5254 11.884C12.4813 11.884 12.4383 11.8976 12.4023 11.9229C12.3662 11.9482 12.3388 11.984 12.3238 12.0254L10.4841 17.695C10.4559 17.7797 10.4553 17.8712 10.4823 17.9562C10.5093 18.0413 10.5626 18.1156 10.6345 18.1686L15.9969 22.0496Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M16.001 5.49879C17.0755 5.49879 17.9465 4.62774 17.9465 3.55323C17.9465 2.47872 17.0755 1.60767 16.001 1.60767C14.9265 1.60767 14.0554 2.47872 14.0554 3.55323C14.0554 4.62774 14.9265 5.49879 16.001 5.49879Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M16.001 32.3302C17.0755 32.3302 17.9465 31.4592 17.9465 30.3847C17.9465 29.3101 17.0755 28.4391 16.001 28.4391C14.9265 28.4391 14.0554 29.3101 14.0554 30.3847C14.0554 31.4592 14.9265 32.3302 16.001 32.3302Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M29.416 18.9146C30.4905 18.9146 31.3616 18.0435 31.3616 16.969C31.3616 15.8945 30.4905 15.0234 29.416 15.0234C28.3415 15.0234 27.4705 15.8945 27.4705 16.969C27.4705 18.0435 28.3415 18.9146 29.416 18.9146Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M2.58399 18.9146C3.6585 18.9146 4.52956 18.0435 4.52956 16.969C4.52956 15.8945 3.6585 15.0234 2.58399 15.0234C1.50949 15.0234 0.638428 15.8945 0.638428 16.969C0.638428 18.0435 1.50949 18.9146 2.58399 18.9146Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M25.4874 9.42787C26.5619 9.42787 27.4329 8.55681 27.4329 7.48231C27.4329 6.4078 26.5619 5.53674 25.4874 5.53674C24.4129 5.53674 23.5418 6.4078 23.5418 7.48231C23.5418 8.55681 24.4129 9.42787 25.4874 9.42787Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M6.51411 28.4011C7.58861 28.4011 8.45967 27.5301 8.45967 26.4556C8.45967 25.3811 7.58861 24.51 6.51411 24.51C5.4396 24.51 4.56854 25.3811 4.56854 26.4556C4.56854 27.5301 5.4396 28.4011 6.51411 28.4011Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M25.4874 28.4011C26.5619 28.4011 27.4329 27.5301 27.4329 26.4556C27.4329 25.3811 26.5619 24.51 25.4874 24.51C24.4129 24.51 23.5418 25.3811 23.5418 26.4556C23.5418 27.5301 24.4129 28.4011 25.4874 28.4011Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M6.51411 9.42787C7.58861 9.42787 8.45967 8.55681 8.45967 7.48231C8.45967 6.4078 7.58861 5.53674 6.51411 5.53674C5.4396 5.53674 4.56854 6.4078 4.56854 7.48231C4.56854 8.55681 5.4396 9.42787 6.51411 9.42787Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M8.19684 6.03906C9.83105 4.87101 11.7078 4.08683 13.6872 3.745"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M2.75726 14.7054C2.93036 13.6906 3.21966 12.699 3.61947 11.7502"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M5.09908 24.813C4.41609 23.8672 3.86006 22.836 3.44519 21.7456"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M13.8252 30.2116C11.8361 29.8909 9.94513 29.1254 8.29321 27.9719"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M24.0249 27.7096C22.3493 28.9642 20.4033 29.8091 18.3425 30.1764"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M28.6459 21.4257C28.2229 22.6395 27.627 23.7859 26.8766 24.8296"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M28.062 11.12C28.6183 12.2682 29.0079 13.49 29.219 14.7483"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M18.2112 3.7323C20.2139 4.06753 22.1136 4.85543 23.7656 6.03597"></path></g><defs><clipPath id="clip0_7608_14911"><rect width="31.9954" height="31.9954" fill="white" transform="translate(0 0.967773)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Product Handbook
+      url: /handbook/product/
+    - name: Product Principles
+      url: /handbook/product/product-principles/
+    - name: Product Security
+      url: /handbook/security/product-security/
+    - name: Open Source
+      url: /handbook/engineering/open-source/
+
+- name: Engineering
+  url: /handbook/engineering/
+  svg: '<svg fill="currentColor" height="32" viewBox="0 0 35 35" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mb-16" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-feb12472=""><path fill-opacity="0" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.45" d="M16.6596 9.4137H32.3192V29.3491C32.3192 31.006 30.976 32.3491 29.3192 32.3491H1V11.4374"></path><path fill-opacity="0" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.45" d="M10.5998 24.3217L7.12744 20.8814L10.5998 17.441"></path><path fill-opacity="0" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.45" d="M22.7192 17.441L26.1916 20.8814L22.7192 24.3217"></path><path fill-opacity="0" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.45" d="M19.2603 15.7276L14.0586 26.0351"></path><path fill="currentColor" d="M5.03035 1.06244L5.72482 2.77586C5.83376 3.05918 6.06524 3.28853 6.3512 3.39646L8.08056 4.08453C8.63886 4.30039 8.63886 5.09638 8.08056 5.31225L6.3512 6.00031C6.06524 6.10824 5.83376 6.3376 5.72482 6.62092L5.03035 8.33433C4.81248 8.88748 4.00907 8.88748 3.7912 8.33433L3.09673 6.62092C2.9878 6.3376 2.75631 6.10824 2.47035 6.00031L0.740989 5.31225C0.182691 5.09638 0.182691 4.30039 0.740989 4.08453L2.47035 3.39646C2.75631 3.28853 2.9878 3.05918 3.09673 2.77586L3.7912 1.06244C4.00907 0.509296 4.81248 0.509296 5.03035 1.06244Z"></path><path fill="currentColor" d="M11.7032 6.94483L12.1662 8.07811C12.2479 8.26699 12.3977 8.4154 12.5883 8.49635L13.7321 8.95506C14.0998 9.10346 14.0998 9.62963 13.7321 9.77803L12.5883 10.2367C12.3977 10.3177 12.2479 10.4661 12.1662 10.655L11.7032 11.7883C11.5534 12.1525 11.0223 12.1525 10.8726 11.7883L10.4096 10.655C10.3279 10.4661 10.1781 10.3177 9.98745 10.2367L8.84362 9.77803C8.47596 9.62963 8.47596 9.10346 8.84362 8.95506L9.98745 8.49635C10.1781 8.4154 10.3279 8.26699 10.4096 8.07811L10.8726 6.94483C11.0223 6.58056 11.5534 6.58056 11.7032 6.94483Z"></path></svg>'
+  links:
+    - name: Customer Support Department
+      url: /handbook/support/
+    - name: Development Department
+      url: /handbook/engineering/development/
+    - name: Infrastructure Platforms Department
+      url: /handbook/engineering/infrastructure-platforms/
+    - name: Security Practices
+      url: /handbook/security/
+    - name: Open Source
+      url: /handbook/engineering/open-source/
+
+- name: Enterprise Technology & AI
+  url: /handbook/business-technology/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mb-16" style="" role="img" aria-hidden="true"><g clip-path="url(#clip0_tech_ai)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" d="M16 2.5L2 9.5V23.5L16 30.5L30 23.5V9.5L16 2.5Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" d="M16 16.5V30.5"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" d="M2 9.5L16 16.5L30 9.5"></path><circle cx="16" cy="16.5" r="3" stroke="currentColor" stroke-width="1.28" fill="none"></circle><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" d="M11 12L6 9.5M21 12L26 9.5M11 21L6 23.5M21 21L26 23.5"></path></g><defs><clipPath id="clip0_tech_ai"><rect width="32" height="32" fill="white" transform="translate(0 0.5)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Enterprise Data
+      url: /handbook/business-technology/
+    - name: Corporate IT
+      url: /handbook/business-technology/
+    - name: Business Systems
+      url: /handbook/business-technology/
+    - name: Strategy & Ops
+      url: /handbook/business-technology/
+    - name: Enterprise AI
+      url: /handbook/eta/ai/
+
+- name: Security
+  url: /handbook/security/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 24 24" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mb-16" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-feb12472=""><path stroke="currentColor" stroke-miterlimit="10" d="M2.5 6.99v4.5c0 3.35 1.44 6.84 4 9 1.35 1.14 3.08 2.02 5.5 2.87 2.42-.85 4.15-1.73 5.5-2.87 2.56-2.16 4-5.65 4-9v-7C14.99 4.6 12 .81 12 .81S9.01 4.6 2.5 4.49H2"></path><path stroke="currentColor" stroke-miterlimit="10" d="M8.41 12.4l2.15 2.16 5.27-5.27"></path></svg>'
+  links:
+    - name: Security Standards
+      url: /handbook/security/standards/
+    - name: Product Security
+      url: /handbook/security/product-security/
+    - name: Security Operations
+      url: /handbook/security/security-operations/
+    - name: Threat Management
+      url: /handbook/security/threat-management/
+    - name: Security Assurance
+      url: /handbook/security/security-assurance/
+
+- name: Marketing
+  url: /handbook/marketing/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300 slp-mr-8" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-6769a1a0=""><g clip-path="url(#clip0_7608_14965)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M4.97144 17.0143C5.80529 19.2113 7.31272 21.0883 9.27801 22.3767C9.56103 22.5663 9.7927 22.823 9.95237 23.1239C10.112 23.4248 10.1947 23.7606 10.1931 24.1013V27.144C10.1914 28.521 10.7363 29.8423 11.7082 30.8178C12.68 31.7933 13.9994 32.3431 15.3763 32.3465V32.3465C16.0595 32.3469 16.736 32.2126 17.3672 31.9512C17.9984 31.6899 18.5719 31.3067 19.0548 30.8234C19.5377 30.3402 19.9206 29.7665 20.1816 29.1352C20.4425 28.5038 20.5764 27.8272 20.5756 27.144V24.1013C20.5744 23.6371 20.73 23.1861 21.0171 22.8214"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M24.7044 7.04123C23.6472 5.41078 22.1807 4.08619 20.4515 3.19968C18.7223 2.31318 16.7908 1.89578 14.8498 1.98915C13.8133 2.03543 12.7888 2.22936 11.8071 2.56507"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M10.1765 24.1012H20.575"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M9.39221 26.8496H21.3585"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M10.0903 29.5979H20.8375"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M11.6615 13.2099C10.4499 12.1377 8.88795 11.5458 7.27009 11.5458C5.65224 11.5458 4.09028 12.1377 2.87872 13.2099"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M7.26612 9.2461C8.33708 9.2461 9.20527 8.37792 9.20527 7.30695C9.20527 6.23599 8.33708 5.3678 7.26612 5.3678C6.19515 5.3678 5.32697 6.23599 5.32697 7.30695C5.32697 8.37792 6.19515 9.2461 7.26612 9.2461Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M7.28982 14.9312C10.9618 14.9312 13.9385 11.9545 13.9385 8.28255C13.9385 4.61061 10.9618 1.63391 7.28982 1.63391C3.61787 1.63391 0.641174 4.61061 0.641174 8.28255C0.641174 11.9545 3.61787 14.9312 7.28982 14.9312Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M29.076 19.2284C27.8637 18.1526 26.2991 17.5586 24.6783 17.5586C23.0575 17.5586 21.4929 18.1526 20.2805 19.2284"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M24.6801 15.2069C25.751 15.2069 26.6192 14.3387 26.6192 13.2678C26.6192 12.1968 25.751 11.3286 24.6801 11.3286C23.6091 11.3286 22.7409 12.1968 22.7409 13.2678C22.7409 14.3387 23.6091 15.2069 24.6801 15.2069Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M24.7013 20.9496C28.3733 20.9496 31.35 17.9729 31.35 14.301C31.35 10.629 28.3733 7.65234 24.7013 7.65234C21.0294 7.65234 18.0527 10.629 18.0527 14.301C18.0527 17.9729 21.0294 20.9496 24.7013 20.9496Z"></path></g><defs><clipPath id="clip0_7608_14965"><rect width="31.9954" height="31.9954" fill="white" transform="translate(0 0.990845)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Brand Experience
+      url: /handbook/marketing/#brand-experience
+    - name: Corporate Communications
+      url: /handbook/marketing/#corporate-communications
+    - name: Product and Technical Marketing
+      url: /handbook/marketing/#product-and-technical-marketing
+    - name: Growth Marketing
+      url: /handbook/marketing/#growth-marketing
+
+- name: Sales
+  url: /handbook/sales/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 32" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-color-text-300" style="" role="img" aria-hidden="true" data-icon-name="" data-v-c3411281="" data-v-c7dce1c4=""><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" clip-path="url(#clip0_752_2767)"><path d="M8.155 31.355v-9.147h2.288L5.541 17.63.64 22.207h2.287v9.148h2.64m13.043-2.588V13.71h2.288l-4.902-4.575-4.901 4.575h2.287v17.645h5.228m10.457 0V5.215h2.288L26.453.64l-4.901 4.575h2.287v26.14h2.64"></path></g><defs><clipPath id="clip0_752_2767"><path fill="#fff" d="M0 0h31.995v31.995H0z"></path></clipPath></defs></svg>'
+  links:
+    - name: Alliances
+      url: /handbook/alliances/
+    - name: Commercial
+      url: /handbook/sales/commercial/
+    - name: Customer Experience
+      url: /handbook/customer-experience/
+    - name: Customer Success Management
+      url: /handbook/customer-experience/csm/
+    - name: Reseller Channels
+      url: /handbook/resellers/
+    - name: Field Operations
+      url: /handbook/sales/field-operations/
+    - name: Reporting
+      url: /handbook/business-technology/#reporting
+    - name: Solutions Architecture
+      url: /handbook/solutions-architects/
+
+- name: Finance
+  url: /handbook/finance/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 33 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-black slp-mb-24" style="" role="img" aria-hidden="true" data-icon-name="" alt="" variant="marketing" data-v-c3411281="" data-v-7c1834b9=""><g clip-path="url(#clip0_7608_14952)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M7.07332 9.81358C6.55383 9.11076 6.22133 8.28752 6.107 7.42105C5.99267 6.55459 6.10026 5.67328 6.41968 4.85977C6.7391 4.04626 7.25988 3.32719 7.93319 2.76998C8.60651 2.21278 9.4103 1.83569 10.2692 1.67408C11.1281 1.51247 12.014 1.57164 12.8438 1.84602C13.6736 2.12041 14.4201 2.60103 15.0133 3.24282C15.6066 3.88461 16.0271 4.66654 16.2355 5.51531C16.4439 6.36407 16.4333 7.25186 16.2048 8.09542"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M11.9392 28.7516C15.0518 29.8524 18.4422 29.8862 21.5762 28.8476"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M22.0214 16.8614C22.0214 16.5001 22.1649 16.1536 22.4204 15.8981C22.6758 15.6427 23.0223 15.4991 23.3836 15.4991C23.7449 15.4991 24.0914 15.6427 24.3468 15.8981C24.6023 16.1536 24.7458 16.5001 24.7458 16.8614"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M28.3021 11.6629C28.5714 11.0094 28.9405 10.4017 29.3963 9.86152C29.5012 9.73255 29.5707 9.57857 29.5982 9.41465C29.6256 9.25073 29.6101 9.08248 29.553 8.92639C29.4959 8.77029 29.3993 8.6317 29.2725 8.52416C29.1458 8.41663 28.9933 8.34385 28.83 8.31294C25.5889 7.78822 24.0307 9.76553 24.0307 9.76553C21.9958 8.5945 19.5513 8.09857 16.8893 8.09857C10.5191 8.09857 5.23981 12.0628 4.30555 17.2397C4.30555 17.2397 3.07052 18.2859 2.22265 15.8095C1.92829 16.1294 0.437304 19.329 4.25435 20.2216C4.47333 21.6243 4.99879 22.9614 5.79333 24.1379C6.68556 25.5282 7.33473 27.0603 7.71305 28.6684L8.31137 31.0777C8.8105 32.7638 12.7171 32.6774 13.2675 31.0233"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M18.7608 29.5515C18.7608 29.5867 19.0807 31.1225 19.0807 31.0233C19.6278 32.6902 23.5377 32.7638 24.0336 31.0777L24.8655 27.7374C26.8656 26.8669 28.8057 25.8643 30.6726 24.7362C31.194 24.4226 31.6251 23.9792 31.924 23.4493C32.2229 22.9194 32.3793 22.321 32.378 21.7126V18.046C32.378 17.6955 32.2388 17.3594 31.991 17.1116C31.7432 16.8638 31.407 16.7245 31.0566 16.7245H29.3768C29.0759 15.4977 28.5427 14.3399 27.8059 13.3138"></path></g><defs><clipPath id="clip0_7608_14952"><rect width="31.9954" height="31.9954" fill="white" transform="translate(0.995361 0.953979)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Accounts Payable
+      url: /handbook/finance/accounts-payable/
+    - name: Accounts Receivable
+      url: /handbook/finance/accounting/#accounts-receivable
+    - name: Business Technology
+      url: /handbook/business-technology/
+    - name: Expenses
+      url: /handbook/finance/expenses/
+    - name: Financial Planning & Analysis
+      url: /handbook/finance/financial-planning-and-analysis/
+    - name: Payroll
+      url: /handbook/finance/payroll/
+    - name: Procurement
+      url: /handbook/finance/procurement/
+    - name: Tax
+      url: /handbook/finance/tax/
+    - name: Board Meetings
+      url: /handbook/board-meetings/
+    - name: Internal Audit
+      url: /handbook/finance/internal-audit/
+    - name: Equity Compensation
+      url: /handbook/total-rewards/stock-options/
+
+- name: Legal & Corporate Affairs
+  url: /handbook/legal/
+  svg: '<svg fill="currentColor" height="32" fill-opacity="0" viewBox="0 0 32 33" class="slp-icon slp-icon slp-icon--size-lg slp-icon--color-black slp-mb-24" style="" role="img" aria-hidden="true" data-icon-name="" alt="" variant="marketing" data-v-c3411281="" data-v-7c1834b9=""><g clip-path="url(#clip0_7608_14978)"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M31.3552 7.54713L15.9974 1.62158L0.639587 7.54713V10.5515H31.3552V7.54713Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M31.3552 28.8719H0.639587V32.337H31.3552V28.8719Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M29.4322 25.41H2.55933V28.8751H29.4322V25.41Z"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M4.64813 25.4101V10.5514"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M7.82349 25.4101V10.5514"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M24.1736 25.4101V10.5514"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M27.3461 25.4101V10.5514"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M14.4102 25.4101V10.5514"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.27982" d="M17.5841 25.4101V10.5514"></path></g><defs><clipPath id="clip0_7608_14978"><rect width="31.9954" height="31.9954" fill="white" transform="translate(0 0.981567)"></rect></clipPath></defs></svg>'
+  links:
+    - name: Commercial
+      url: /handbook/legal/commercial/
+    - name: Corporate
+      url: /handbook/legal/publiccompanyresources/
+    - name: Corporate Development
+      url: /handbook/acquisitions/
+    - name: Employment
+      url: /handbook/legal/employment-law/
+    - name: Environment, Social, and Governance (ESG)
+      url: /handbook/legal/esg/
+    - name: Operations
+      url: /handbook/legal/legalops/
+    - name: Privacy
+      url: /handbook/legal/privacy/
+    - name: Product
+      url: /handbook/legal/product/
+    - name: Risk Management and Dispute Resolution
+      url: /handbook/legal/risk-management-dispute-resolution/
+    - name: Trade Compliance
+      url: /handbook/legal/trade-compliance/

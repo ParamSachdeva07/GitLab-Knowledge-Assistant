@@ -1,0 +1,4464 @@
+- name: 'Contact management'
+  category: 'License and Renewals'
+  subcategory: 'Account and Portal Management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Account%20and%20Portal%20Management/Contact%20management.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Contact%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Contact%20management.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Account%20and%20Portal%20Management/L&R%20-%20Account%20and%20Portal%20Management%20-%20Contact%20management.md
+    macros:
+    - L&R::Account and Portal Management::Contact management::Self-service
+    - L&R::Account and Portal Management::Contact management::Speak to billing contact
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/53707294699796
+- name: 'Customers portal access issue'
+  category: 'License and Renewals'
+  subcategory: 'Account and Portal Management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Account%20and%20Portal%20Management/Customer%20portal%20access%20issue.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Customers%20portal%20access%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Customers%20portal%20access%20issue.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Account%20and%20Portal%20Management/L&R%20-%20Account%20and%20Portal%20Management%20-%20Access%20issue.md
+    macros:
+    - L&R::Account and Portal Management::Customer portal access issue::Create a cDot account
+    - L&R::Account and Portal Management::Customer portal access issue::Create a gitlab.com account
+    - L&R::Account and Portal Management::Customer portal access issue::What error are you seeing
+    - L&R::Account and Portal Management::Customer portal access
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/53707264844180
+- name: 'Namespace association'
+  category: 'License and Renewals'
+  subcategory: 'Account and Portal Management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Account%20and%20Portal%20Management/Namespace%20association.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Namespace%20association.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Account%20and%20Portal%20Management/Namespace%20association.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Billable members and seats'
+  category: 'License and Renewals'
+  subcategory: 'Billing and payments'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Billing%20and%20payments/Billable%20members%20and%20seats.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Billable%20members%20and%20seats.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Billable%20members%20and%20seats.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Billing%20and%20payments/L&R%20-%20Billing%20and%20payments%20-%20Billable%20members%20and%20seats.md
+    macros:
+    - L&R::Billing and payments::Billable members and seats::Contact Sales
+    articles: []
+- name: 'Billing and payment issue'
+  category: 'License and Renewals'
+  subcategory: 'Billing and payments'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Billing%20and%20payments/Billing%20and%20payment%20issue.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Billing%20and%20payment%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Billing%20and%20payment%20issue.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Billing%20and%20payments/L&R%20-%20Billing%20and%20payments%20-%20Issue.md
+    macros:
+    - L&R::Billing and payments::Billing and payment issue::Contact Sales
+    articles: []
+- name: 'Consumption inquiry'
+  category: 'License and Renewals'
+  subcategory: 'Billing and payments'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Billing%20and%20payments/Consumption%20inquiry.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Consumption%20inquiry.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Billing%20and%20payments/Consumption%20inquiry.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Billing%20and%20payments/L&R%20-%20Billing%20and%20payments%20-%20Consumption%20inquiry.md
+    macros:
+    - L&R::Billing and payments::Consumption inquiry::Contact Sales
+    articles: []
+- name: 'General licensing or renewal question'
+  category: 'License and Renewals'
+  subcategory: 'General'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/General/General%20licensing%20or%20renewal%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/General/General%20licensing%20or%20renewal%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group in read only state'
+  category: 'License and Renewals'
+  subcategory: 'General'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/General/Group%20in%20read%20only%20state.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/General/Group%20in%20read%20only%20state.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/General/Group%20in%20read%20only%20state.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'EDU program'
+  category: 'License and Renewals'
+  subcategory: 'Special Programs'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Special%20Programs/EDU%20program.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/EDU%20program.md'
+    procedure: null
+    macros: []
+    articles:
+    - https://support.gitlab.com/hc/en-us/articles/22725476432028
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/EDU%20program.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Special%20Programs/L&R%20-%20Special%20Programs%20-%20EDU.md
+    macros:
+    - L&R::Special Programs::EDU program::Contact EDU
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/52923217414420
+- name: 'OSS program'
+  category: 'License and Renewals'
+  subcategory: 'Special Programs'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Special%20Programs/OSS%20program.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/OSS%20program.md'
+    procedure: null
+    macros: []
+    articles:
+    - https://support.gitlab.com/hc/en-us/articles/22725476432028
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/OSS%20program.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Special%20Programs/L&R%20-%20Special%20Programs%20-%20OSS.md
+    macros:
+    - L&R::Special Programs::OSS program::Contact OSS
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/52923217414420
+- name: 'Startups program'
+  category: 'License and Renewals'
+  subcategory: 'Special Programs'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Special%20Programs/Startups%20program.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/Startups%20program.md'
+    procedure: null
+    macros: []
+    articles:
+    - https://support.gitlab.com/hc/en-us/articles/22725476432028
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Special%20Programs/Startups%20program.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Special%20Programs/L&R%20-%20Special%20Programs%20-%20OSS.md
+    macros:
+    - L&R::Special Programs::OSS program::Contact OSS
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/52923217414420
+- name: 'Auto renewal inquiry'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Auto%20renewal%20inquiry.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Auto%20renewal%20inquiry.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Auto%20renewal%20inquiry.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Subscription%20and%20plan%20management/L&R%20-%20Subscription%20and%20plan%20management%20-%20Auto%20renewal%20inquiry.md
+    macros:
+    - L&R::Subscription and plan management::Auto renewal inquiry::Self-service
+    - L&R::Subscription and plan management::Auto renewal inquiry::Contact Sales
+    articles: []
+- name: 'License activation issues'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20activation%20issues.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20activation%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20activation%20issues.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Subscription%20and%20plan%20management/L&R%20-%20Subscription%20and%20plan%20management%20-%20License%20activation%20issues.md
+    macros:
+    - L&R::Subscription and plan management::License activation issues::Ask for error from instance
+    - L&R::Subscription and plan management::License activation issues::Ask for error from browser
+    - L&R::Subscription and plan management::License activation issues::Ask for networking information
+    - L&R::Subscription and plan management::License activation issues::New cloud code generated
+    - L&R::Subscription and plan management::License activation issues::Remove current license to apply new one
+    articles: []
+- name: 'License resend request'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20resend%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20resend%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/License%20resend%20request.md'
+    procedure: null
+    macros:
+    - L&R::Subscription and plan management::License resend request::Self-service
+    articles: []
+- name: 'Namespace Association'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Namespace%20Association.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Namespace%20Association.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Namespace%20Association.md'
+    procedure: null
+    macros:
+    - L&R::Subscription and plan management::License resend request::Self-servic
+    articles: []
+- name: 'Plan change request'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Plan%20change%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Plan%20change%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Plan%20change%20request.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Subscription%20and%20plan%20management/L&R%20-%20Subscription%20and%20plan%20management%20-%20Plan%20change%20request.md
+    macros:
+    - L&R::Subscription and plan management::Plan change request::Contact Sales
+    articles: []
+- name: 'Quarterly subscription reconciliation'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Quarterly%20subscription%20reconciliation.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Quarterly%20subscription%20reconciliation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Quarterly%20subscription%20reconciliation.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Subscription%20and%20plan%20management/L&R%20-%20Subscription%20and%20plan%20management%20-%20QSR.md
+    macros:
+    - L&R::Subscription and plan management::Quarterly subscription reconciliation::Contact Sales
+    articles: []
+- name: 'Renewal or expiration issues'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Renewal%20or%20expiration%20issues.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Renewal%20or%20expiration%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Renewal%20or%20expiration%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Subscription extension request'
+  category: 'License and Renewals'
+  subcategory: 'Subscription and plan management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Subscription%20and%20plan%20management/Subscription%20extension%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Subscription%20extension%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Subscription%20and%20plan%20management/Subscription%20extension%20request.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Subscription%20and%20plan%20management/L&R%20-%20Subscription%20and%20plan%20management%20-%20Extension%20request.md
+    macros:
+    - L&R::Subscription and plan management::Subscription extension request::Contact Sales
+    articles: []
+- name: 'New trial request'
+  category: 'License and Renewals'
+  subcategory: 'Trial management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Trial%20management/New%20trial%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/New%20trial%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/New%20trial%20request.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Trial%20management/L&R%20-%20Trial%20management%20-%20New.md
+    macros: []
+    articles: []
+- name: 'Trial edit request'
+  category: 'License and Renewals'
+  subcategory: 'Trial management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Trial%20management/Trial%20edit%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/Trial%20edit%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/Trial%20edit%20request.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Trial%20management/L&R%20-%20Trial%20management%20-%20Edit.md
+    macros: []
+    articles: []
+- name: 'Trial extension request'
+  category: 'License and Renewals'
+  subcategory: 'Trial management'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/License%20and%20Renewals/Trial%20management/Trial%20extension%20request.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/Trial%20extension%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/License%20and%20Renewals/Trial%20management/Trial%20extension%20request.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/License%20and%20Renewals/Trial%20management/L&R%20-%20Trial%20management%20-%20Extension.md
+    macros: []
+    articles: []
+- name: 'Billing Entity change'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Billing%20Entity%20change.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Billing%20Entity%20change.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'HackerOne License'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/HackerOne%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/HackerOne%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'OEM License'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/OEM%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/OEM%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Order Management'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Order%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Order%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Other'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Other.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Other.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Paid Cloud Exemption'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Paid%20Cloud%20Exemption.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Cloud%20Exemption.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Cloud%20Exemption.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Cloud%20Licensing%20exemption.md'
+    macros:
+    - 'L&R::IRs::Cloud Licensing exemption::Conversion made'
+    articles: []
+- name: 'Paid Extensions'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Paid%20Extensions.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Extensions.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Extensions.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Extend%20an%20(almost)%20expired%20subscription.md'
+    macros:
+    - 'L&R::IRs::Extend an (almost) expired subscription::Not approved'
+    - 'L&R::IRs::Extend an (almost) expired subscription::Extension created'
+    - 'L&R::IRs::Extend an (almost) expired subscription::SFDC extension not created'
+    articles: []
+- name: 'Paid Forward'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Paid%20Forward.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Forward.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Forward.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Forward%20existing%20license%20to%20an%20email%20not%20on%20the%20license.md'
+    macros:
+    - 'L&R::IRs::Forward existing license to an email not on the license::Direct to have customer self-service'
+    articles: []
+- name: 'Paid Multiyear'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Paid%20Multiyear.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Multiyear.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Multiyear.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Multi-year%20license%20needs%20to%20be%20generated.md'
+    macros:
+    - 'L&R::IRs::Multi-year license needs to be generated::Direct to have customer self-service'
+    articles: []
+- name: 'Paid NFR'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20NFR.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20NFR.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Paid Resend'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Paid%20Resend.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Resend.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Paid%20Resend.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Resend%20existing%20license%20to%20the%20email%20on%20the%20license.md'
+    macros:
+    - 'L&R::IRs::Resend existing license to the email on the license::Direct to have customer self-service'
+    articles: []
+- name: 'Provisioning Failure'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Provisioning%20Failure.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Provisioning%20Failure.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Paid Extension'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20Extension.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20Extension.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Paid Investigation'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20Investigation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20Investigation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Paid NFR'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20NFR.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20NFR.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Paid QSR'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20QSR.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Paid%20QSR.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Trial Extension'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Trial%20Extension.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Trial%20Extension.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SaaS Trial Modification'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Trial%20Modification.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/SaaS%20Trial%20Modification.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Subscription Link'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Subscription%20Link.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Subscription%20Link.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Trial Creation'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Trial Extension'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Trial%20Extension.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Extension.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Extension.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Extend%20an%20existing%20Self-managed%20trial.md'
+    macros:
+    - 'L&R::IRs::Extend an existing Self-managed trial::Cannot proceed as addons present'
+    - 'L&R::IRs::Extend an existing Self-managed trial::Not approved'
+    - 'L&R::IRs::Extend an existing Self-managed trial::Extension created'
+    articles: []
+- name: 'Trial Modification'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: 'https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Other/License%20and%20Renewals%20Internal%20Requests/SM%20Trial%20Modification.md'
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Modification.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Trial%20Modification.md'
+    procedure: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Other/License%20and%20Renewals%20Internal%20Requests/L&R%20IRs%20-%20Modify%20an%20existing%20Self-managed%20trial.md'
+    macros:
+    - 'L&R::IRs::Modify an existing Self-managed trial::Modification made'
+    articles: []
+- name: 'Wider Community License'
+  category: 'Other'
+  subcategory: 'License and Renewals Internal Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Wider%20Community%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/License%20and%20Renewals%20Internal%20Requests/Wider%20Community%20License.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'AR Team related'
+  category: 'Other'
+  subcategory: 'Other'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/AR%20Team%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/AR%20Team%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Billing Team related'
+  category: 'Other'
+  subcategory: 'Other'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Billing%20Team%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Billing%20Team%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Downtime Credit Request related'
+  category: 'Other'
+  subcategory: 'Other'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Downtime%20Credit%20Request%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Downtime%20Credit%20Request%20related.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Topic unclear'
+  category: 'Other'
+  subcategory: 'Other'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Topic%20unclear.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Other/Topic%20unclear.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Upgrade Assistance'
+  category: 'Other'
+  subcategory: 'Upgrade Assistance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Upgrade%20Assistance/Upgrade%20Assistance.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Other/Upgrade%20Assistance/Upgrade%20Assistance.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Error Tracking'
+  category: 'Product'
+  subcategory: 'Application Performance Monitoring'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Error%20Tracking.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Error%20Tracking.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Incident Management'
+  category: 'Product'
+  subcategory: 'Application Performance Monitoring'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Incident%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Incident%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Product Analytics'
+  category: 'Product'
+  subcategory: 'Application Performance Monitoring'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Product%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Application%20Performance%20Monitoring/Product%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'AliCloud'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/AliCloud.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/AliCloud.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Amazon Web Services Cognito'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Amazon%20Web%20Services%20Cognito.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Amazon%20Web%20Services%20Cognito.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Atlassian Crowd'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Atlassian%20Crowd.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Atlassian%20Crowd.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Atlassian Omniauth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Atlassian%20Omniauth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Atlassian%20Omniauth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Auth0 OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Auth0%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Auth0%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Authentiq OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Authentiq%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Authentiq%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Azure OAuth OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Azure%20OAuth%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Azure%20OAuth%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Bitbucket cloud OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Bitbucket%20cloud%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Bitbucket%20cloud%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'CAS OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/CAS%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/CAS%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Facebook OAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Facebook%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Facebook%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Generic OAuth2 Provider'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Generic%20OAuth2%20Provider.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Generic%20OAuth2%20Provider.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'GitHub OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/GitHub%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/GitHub%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Google OAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Google%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Google%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'JWT OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/JWT%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/JWT%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Kerberos Auth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Kerberos%20Auth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Kerberos%20Auth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'LDAP'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/LDAP.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/LDAP.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'OAuth service provider'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OAuth%20service%20provider.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OAuth%20service%20provider.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'OIDC OAuth OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OIDC%20OAuth%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OIDC%20OAuth%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'OpenID Connect OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OpenID%20Connect%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/OpenID%20Connect%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Salesforce OmniAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Salesforce%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Salesforce%20OmniAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SAML Group Sync'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SAML%20Group%20Sync.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SAML%20Group%20Sync.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SAML'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SAML.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SAML.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SCIM'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SCIM.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/SCIM.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Smartcard authentication'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Smartcard%20authentication.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Smartcard%20authentication.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Twitter OAuth'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Twitter%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Twitter%20OAuth.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Vault Authentication with OpenID'
+  category: 'Product'
+  subcategory: 'Authentication and Provisioning'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Vault%20Authentication%20with%20OpenID.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Authentication%20and%20Provisioning/Vault%20Authentication%20with%20OpenID.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Backup creation issue'
+  category: 'Product'
+  subcategory: 'Backup and Restore'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20creation%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20creation%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Backup or restore performance'
+  category: 'Product'
+  subcategory: 'Backup and Restore'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20or%20restore%20performance.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20or%20restore%20performance.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Backup setup'
+  category: 'Product'
+  subcategory: 'Backup and Restore'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20setup.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Backup%20setup.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Restore failure'
+  category: 'Product'
+  subcategory: 'Backup and Restore'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Restore%20failure.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Backup%20and%20Restore/Restore%20failure.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Artifacts'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Artifacts.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Artifacts.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Auto DevOps'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Auto%20DevOps.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Auto%20DevOps.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Cache'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Cache.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Cache.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'CI file configuration'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/CI%20file%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/CI%20file%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Deployments'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Deployments.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Deployments.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Environments'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Environments.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Environments.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Feature Flags'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Feature%20Flags.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Feature%20Flags.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Jobs'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Jobs.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Jobs.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge trains'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Merge%20trains.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Merge%20trains.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Multi project pipelines'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Multi%20project%20pipelines.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Multi%20project%20pipelines.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Parent child pipelines'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Parent%20child%20pipelines.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Parent%20child%20pipelines.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Pipeline creation'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Pipeline or job queuing and scheduling'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20or%20job%20queuing%20and%20scheduling.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20or%20job%20queuing%20and%20scheduling.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Pipeline schedules'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20schedules.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20schedules.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Pipeline triggers'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20triggers.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Pipeline%20triggers.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Releases'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Releases.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Releases.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Review Apps'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Review%20Apps.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Review%20Apps.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Variables'
+  category: 'Product'
+  subcategory: 'CICD'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Variables.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/CICD/Variables.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Garbage collection or storage'
+  category: 'Product'
+  subcategory: 'Container Registry'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Garbage%20collection%20or%20storage.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Garbage%20collection%20or%20storage.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Gateway and connectivity errors'
+  category: 'Product'
+  subcategory: 'Container Registry'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Gateway%20and%20connectivity%20errors.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Gateway%20and%20connectivity%20errors.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Image push or pull issue'
+  category: 'Product'
+  subcategory: 'Container Registry'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Image%20push%20or%20pull%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Image%20push%20or%20pull%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Metadata Database'
+  category: 'Product'
+  subcategory: 'Container Registry'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Metadata%20Database.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Metadata%20Database.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Registry authentication'
+  category: 'Product'
+  subcategory: 'Container Registry'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Registry%20authentication.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Container%20Registry/Registry%20authentication.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Background migration stuck or failed'
+  category: 'Product'
+  subcategory: 'Database'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Background%20migration%20stuck%20or%20failed.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Background%20migration%20stuck%20or%20failed.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Database migration'
+  category: 'Product'
+  subcategory: 'Database'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Database%20migration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Database%20migration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Database query or performance degradation'
+  category: 'Product'
+  subcategory: 'Database'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Database%20query%20or%20performance%20degradation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Database%20query%20or%20performance%20degradation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Data inconsistency'
+  category: 'Product'
+  subcategory: 'Database'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Data%20inconsistency.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/Data%20inconsistency.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'PostgreSQL connectivity'
+  category: 'Product'
+  subcategory: 'Database'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/PostgreSQL%20connectivity.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Database/PostgreSQL%20connectivity.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Dependency Proxy Errors'
+  category: 'Product'
+  subcategory: 'Dependency Proxy'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Dependency%20Proxy/Dependency%20Proxy%20Errors.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Dependency%20Proxy/Dependency%20Proxy%20Errors.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Dependency Proxy Management'
+  category: 'Product'
+  subcategory: 'Dependency Proxy'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Dependency%20Proxy/Dependency%20Proxy%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Dependency%20Proxy/Dependency%20Proxy%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Chat'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Chat.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Chat.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Code Review'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Code%20Review.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Code%20Review.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Code suggestions'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Code%20suggestions.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Code%20suggestions.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo feature access'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20feature%20access.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20feature%20access.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo feature enablement and configuration'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20feature%20enablement%20and%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20feature%20enablement%20and%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Merge Request Summary'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Merge%20Request%20Summary.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Merge%20Request%20Summary.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Root Cause Analysis'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Root%20Cause%20Analysis.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Root%20Cause%20Analysis.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Suggested Reviewers'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Suggested%20Reviewers.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Suggested%20Reviewers.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Test Generation'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Test%20Generation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Test%20Generation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo unavailable or not responding'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20unavailable%20or%20not%20responding.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20unavailable%20or%20not%20responding.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Usage Billing'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Usage%20Billing.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Usage%20Billing.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Vulnerability Explanation'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Vulnerability%20Explanation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Vulnerability%20Explanation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Duo Vulnerability Resolution'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Vulnerability%20Resolution.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Duo%20Vulnerability%20Resolution.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'IDE or editor integration'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/IDE%20or%20editor%20integration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/IDE%20or%20editor%20integration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'License or entitlement mismatch'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/License%20or%20entitlement%20mismatch.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/License%20or%20entitlement%20mismatch.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Remote execution environment sandbox'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Product/Duo/Remote%20execution%20environment%20sandbox.md
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Remote%20execution%20environment%20sandbox.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Remote%20execution%20environment%20sandbox.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Product/Duo/Product%20-%20Duo%20-%20Remote%20execution%20environment%20sandbox.md
+    macros:
+    - Support::Product::Duo::Remote execution environment sandbox::Alternatives to using Anthropic Sandbox Runtime
+    articles: []
+- name: 'Self hosted Models'
+  category: 'Product'
+  subcategory: 'Duo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Self%20hosted%20Models.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Duo/Self%20hosted%20Models.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Epic management'
+  category: 'Product'
+  subcategory: 'Epics and Roadmaps'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Epics%20and%20Roadmaps/Epic%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Epics%20and%20Roadmaps/Epic%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Roadmaps'
+  category: 'Product'
+  subcategory: 'Epics and Roadmaps'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Epics%20and%20Roadmaps/Roadmaps.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Epics%20and%20Roadmaps/Roadmaps.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Geo replication or failover'
+  category: 'Product'
+  subcategory: 'Geo'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Geo/Geo%20replication%20or%20failover.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Geo/Geo%20replication%20or%20failover.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: '2FA'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/2FA.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/2FA.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Account access issues'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20access%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20access%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Account Deletion'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20Deletion.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20Deletion.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Account email issues'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20email%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20email%20issues.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Account Registration'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20Registration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Account%20Registration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Namesquatting'
+  category: 'Product'
+  subcategory: 'GitLab Account Related'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Namesquatting.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20Account%20Related/Namesquatting.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Audit Events'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Audit%20Events.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Audit%20Events.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'CICD Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/CICD%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/CICD%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Code Review Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Code%20Review%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Code%20Review%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Contribution Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Contribution%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Contribution%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group DevOps Adoption'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Group%20DevOps%20Adoption.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Group%20DevOps%20Adoption.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Insights'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Insights.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Insights.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Issue Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Issue%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Issue%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge Request Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Merge%20Request%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Merge%20Request%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Productivity Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Productivity%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Productivity%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Repository Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Repository%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Repository%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Value Stream Analytics'
+  category: 'Product'
+  subcategory: 'GitLab analytics'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Value%20Stream%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/GitLab%20analytics/Value%20Stream%20Analytics.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group creation'
+  category: 'Product'
+  subcategory: 'Groups'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group memberships'
+  category: 'Product'
+  subcategory: 'Groups'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20memberships.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20memberships.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group settings'
+  category: 'Product'
+  subcategory: 'Groups'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20settings.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20settings.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group wikis'
+  category: 'Product'
+  subcategory: 'Groups'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20wikis.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Groups/Group%20wikis.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SSL certificates'
+  category: 'Product'
+  subcategory: 'Instance Administration'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Instance%20Administration/SSL%20certificates.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Instance%20Administration/SSL%20certificates.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Akismet'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Akismet.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Akismet.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Clickhouse'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Clickhouse.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Clickhouse.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Datadog'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Datadog.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Datadog.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Elasticsearch'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Elasticsearch.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Elasticsearch.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'External issue trackers'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/External%20issue%20trackers.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/External%20issue%20trackers.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Gmail actions button'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Gmail%20actions%20button.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Gmail%20actions%20button.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Jira integration'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Jira%20integration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Jira%20integration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Kroki'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Kroki.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Kroki.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Mailgun'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Mailgun.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Mailgun.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'OpenSearch'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/OpenSearch.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/OpenSearch.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'PlantUML'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/PlantUML.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/PlantUML.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Project integrations'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Project%20integrations.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Project%20integrations.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SMTP'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/SMTP.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/SMTP.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Sourcegraph'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Sourcegraph.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Sourcegraph.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Trello'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Trello.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Trello.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Visual Studio Code extension'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Visual%20Studio%20Code%20extension.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Visual%20Studio%20Code%20extension.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Webhook delivery'
+  category: 'Product'
+  subcategory: 'Integrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Webhook%20delivery.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Integrations/Webhook%20delivery.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Iteration creation'
+  category: 'Product'
+  subcategory: 'Iterations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Iterations/Iteration%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Iterations/Iteration%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Iteration management'
+  category: 'Product'
+  subcategory: 'Iterations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Iterations/Iteration%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Iterations/Iteration%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Group labels'
+  category: 'Product'
+  subcategory: 'Labels'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Labels/Group%20labels.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Labels/Group%20labels.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Project labels'
+  category: 'Product'
+  subcategory: 'Labels'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Labels/Project%20labels.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Labels/Project%20labels.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Infrastructure as Code'
+  category: 'Product'
+  subcategory: 'Manage your infrastructure'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Infrastructure%20as%20Code.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Infrastructure%20as%20Code.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Kubermetes clusters'
+  category: 'Product'
+  subcategory: 'Manage your infrastructure'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Kubermetes%20clusters.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Kubermetes%20clusters.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Runbooks'
+  category: 'Product'
+  subcategory: 'Manage your infrastructure'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Runbooks.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Manage%20your%20infrastructure/Runbooks.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Approval rules'
+  category: 'Product'
+  subcategory: 'Merge Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Approval%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Approval%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge Request Changes'
+  category: 'Product'
+  subcategory: 'Merge Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Changes.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Changes.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge Request Conflicts'
+  category: 'Product'
+  subcategory: 'Merge Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Conflicts.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Conflicts.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge Request Creation'
+  category: 'Product'
+  subcategory: 'Merge Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Merge Request Management'
+  category: 'Product'
+  subcategory: 'Merge Requests'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Merge%20Requests/Merge%20Request%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Milestone management'
+  category: 'Product'
+  subcategory: 'Milestones'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Milestones/Milestone%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Milestones/Milestone%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Composer Packages'
+  category: 'Product'
+  subcategory: 'Packages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/Composer%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/Composer%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Maven Packages'
+  category: 'Product'
+  subcategory: 'Packages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/Maven%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/Maven%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'npm Packages'
+  category: 'Product'
+  subcategory: 'Packages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/npm%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/npm%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'NuGet Packages'
+  category: 'Product'
+  subcategory: 'Packages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/NuGet%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/NuGet%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'PyPI Packages'
+  category: 'Product'
+  subcategory: 'Packages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/PyPI%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Packages/PyPI%20Packages.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Pages deployment or serving issue'
+  category: 'Product'
+  subcategory: 'Pages'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Pages/Pages%20deployment%20or%20serving%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Pages/Pages%20deployment%20or%20serving%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Gitaly or repository performance issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Gitaly%20or%20repository%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Gitaly%20or%20repository%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Nginx performance issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Nginx%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Nginx%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Patroni performance issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Patroni%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Patroni%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Redis performance issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Redis%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Redis%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Resource saturation or capacity issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Resource%20saturation%20or%20capacity%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Resource%20saturation%20or%20capacity%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Sentry performance issue'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Sentry%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Sentry%20performance%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Sidekiq backlog or processing delay'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Sidekiq%20backlog%20or%20processing%20delay.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Sidekiq%20backlog%20or%20processing%20delay.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Slow UI or API performance'
+  category: 'Product'
+  subcategory: 'Performance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Slow%20UI%20or%20API%20performance.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Performance/Slow%20UI%20or%20API%20performance.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Imports and Exports'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Imports%20and%20Exports.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Imports%20and%20Exports.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Issue boards'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issue%20boards.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issue%20boards.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Issue designs'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issue%20designs.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issue%20designs.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Issues'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issues.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Issues.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Project creation'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Project management'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Project wikis'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20wikis.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Project%20wikis.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Service Desk'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Service%20Desk.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Service%20Desk.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Summarize issue comments'
+  category: 'Product'
+  subcategory: 'Projects'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Summarize%20issue%20comments.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Projects/Summarize%20issue%20comments.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Branches'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Branches.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Branches.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Code owners'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Code%20owners.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Code%20owners.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Explain this block of code'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Explain%20this%20block%20of%20code.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Explain%20this%20block%20of%20code.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Forking'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Forking.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Forking.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'LFS'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/LFS.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/LFS.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Mirroring'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Mirroring.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Mirroring.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Protected branches and Branch rules'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Protected%20branches%20and%20Branch%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Protected%20branches%20and%20Branch%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Protected tags'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Protected%20tags.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Protected%20tags.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Push rules'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Push%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Push%20rules.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Snippets'
+  category: 'Product'
+  subcategory: 'Repositories'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Snippets.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Repositories/Snippets.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Runner configuration'
+  category: 'Product'
+  subcategory: 'Runners'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20configuration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Runner network or connectivity'
+  category: 'Product'
+  subcategory: 'Runners'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20network%20or%20connectivity.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20network%20or%20connectivity.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Runner offline or not picking up jobs'
+  category: 'Product'
+  subcategory: 'Runners'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20offline%20or%20not%20picking%20up%20jobs.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20offline%20or%20not%20picking%20up%20jobs.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Runner registration'
+  category: 'Product'
+  subcategory: 'Runners'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20registration.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Runners/Runner%20registration.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'API Fuzzing'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/API%20Fuzzing.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/API%20Fuzzing.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Compliance Center and Compliance Frameworks'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Compliance%20Center%20and%20Compliance%20Frameworks.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Compliance%20Center%20and%20Compliance%20Frameworks.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Coverage guided fuzz testing'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Coverage%20guided%20fuzz%20testing.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Coverage%20guided%20fuzz%20testing.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'CVE ID requests'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/CVE%20ID%20requests.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/CVE%20ID%20requests.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Post processing and revocation'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Post%20processing%20and%20revocation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Post%20processing%20and%20revocation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'SAST DAST or Dependency Scanning'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: https://gitlab.com/gitlab-com/support/runbooks/-/blob/main/Product/Security%20and%20Compliance/SAST%20DAST%20or%20Dependency%20Scanning.md
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/SAST%20DAST%20or%20Dependency%20Scanning.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/SAST%20DAST%20or%20Dependency%20Scanning.md'
+    procedure: https://gitlab.com/gitlab-support-readiness/zendesk-copilot/procedures/-/blob/master/data/US%20Government/Product/Security%20and%20Compliance/Product%20-%20Security%20and%20Compliance%20-%20SAST%20DAST%20or%20Dependency%20Scanning.md
+    macros:
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Add instance hostname to configuration
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Ask for job status and executor
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Ask for log info for container_registry_event
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Confirm image they are using
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Confirm scan is healthy
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Confirm scanning is enabled
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Database cannot be swapped
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Generate and use new token
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Need to use docker or kubernetes executor
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::No findings show for SBOM only OS
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Perform a push and gather logs
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Policy job is untagged
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Problem unclear
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Provide pipeline status
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Provide proxy settings
+    - Support::Product::Security and Compliance::SAST DAST or Dependency Scanning::Runner proxy settings issue
+    articles:
+    - https://federal-support.gitlab.com/hc/en-us/articles/53832283718420
+- name: 'Secret Detection'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Secret%20Detection.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Secret%20Detection.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Secure Policies'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Secure%20Policies.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Secure%20Policies.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Security Dashboard'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Security%20Dashboard.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Security%20Dashboard.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Third party security compliance and protocol requirements'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Third%20party%20security%20compliance%20and%20protocol%20requirements.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Third%20party%20security%20compliance%20and%20protocol%20requirements.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Vulnerability Page and Vulnerability Report'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Vulnerability%20Page%20and%20Vulnerability%20Report.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Vulnerability%20Page%20and%20Vulnerability%20Report.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Vulnerability severity levels'
+  category: 'Product'
+  subcategory: 'Security and Compliance'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Vulnerability%20severity%20levels.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Security%20and%20Compliance/Vulnerability%20severity%20levels.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Helm chart upgrade'
+  category: 'Product'
+  subcategory: 'Upgrades and Migrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Helm%20chart%20upgrade.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Helm%20chart%20upgrade.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Post upgrade regression'
+  category: 'Product'
+  subcategory: 'Upgrades and Migrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Post%20upgrade%20regression.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Post%20upgrade%20regression.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Source to target migration or import failure'
+  category: 'Product'
+  subcategory: 'Upgrades and Migrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Source%20to%20target%20migration%20or%20import%20failure.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Source%20to%20target%20migration%20or%20import%20failure.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Upgrade blocked or precheck issue'
+  category: 'Product'
+  subcategory: 'Upgrades and Migrations'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Upgrade%20blocked%20or%20precheck%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Upgrades%20and%20Migrations/Upgrade%20blocked%20or%20precheck%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'CI Minute usage'
+  category: 'Product'
+  subcategory: 'Usage Quotas'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/CI%20Minute%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/CI%20Minute%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Storage usage'
+  category: 'Product'
+  subcategory: 'Usage Quotas'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/Storage%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/Storage%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Subscription seat usage'
+  category: 'Product'
+  subcategory: 'Usage Quotas'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/Subscription%20seat%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Usage%20Quotas/Subscription%20seat%20usage.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Enterprise Users'
+  category: 'Product'
+  subcategory: 'Users'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/Enterprise%20Users.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/Enterprise%20Users.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'TODO Lists'
+  category: 'Product'
+  subcategory: 'Users'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/TODO%20Lists.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/TODO%20Lists.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'User Creation'
+  category: 'Product'
+  subcategory: 'Users'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Creation.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'User Management'
+  category: 'Product'
+  subcategory: 'Users'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Management.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'User Settings'
+  category: 'Product'
+  subcategory: 'Users'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Settings.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Product/Users/User%20Settings.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Contacts management projects'
+  category: 'Support Portal'
+  subcategory: 'Contact Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/Contacts%20management%20projects.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/Contacts%20management%20projects.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Modify support contacts'
+  category: 'Support Portal'
+  subcategory: 'Contact Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/Modify%20support%20contacts.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/Modify%20support%20contacts.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'View list of support contacts'
+  category: 'Support Portal'
+  subcategory: 'Contact Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/View%20list%20of%20support%20contacts.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Contact%20Management/View%20list%20of%20support%20contacts.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'General Support Portal question'
+  category: 'Support Portal'
+  subcategory: 'General'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/General/General%20Support%20Portal%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/General/General%20Support%20Portal%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Organization setup question'
+  category: 'Support Portal'
+  subcategory: 'Organization Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Organization%20setup%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Organization%20setup%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Shared organization request'
+  category: 'Support Portal'
+  subcategory: 'Organization Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Shared%20organization%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Shared%20organization%20request.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Subscription entitlement question'
+  category: 'Support Portal'
+  subcategory: 'Organization Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Subscription%20entitlement%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Organization%20Management/Subscription%20entitlement%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Portal login or access issue'
+  category: 'Support Portal'
+  subcategory: 'Portal Usage'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Portal%20login%20or%20access%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Portal%20login%20or%20access%20issue.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Portal navigation question'
+  category: 'Support Portal'
+  subcategory: 'Portal Usage'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Portal%20navigation%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Portal%20navigation%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Report a portal bug or error'
+  category: 'Support Portal'
+  subcategory: 'Portal Usage'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Report%20a%20portal%20bug%20or%20error.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Portal%20Usage/Report%20a%20portal%20bug%20or%20error.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'How to submit a ticket'
+  category: 'Support Portal'
+  subcategory: 'Ticket Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/How%20to%20submit%20a%20ticket.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/How%20to%20submit%20a%20ticket.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Ticket assignment or routing question'
+  category: 'Support Portal'
+  subcategory: 'Ticket Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/Ticket%20assignment%20or%20routing%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/Ticket%20assignment%20or%20routing%20question.md'
+    procedure: null
+    macros: []
+    articles: []
+- name: 'Unable to submit a ticket'
+  category: 'Support Portal'
+  subcategory: 'Ticket Management'
+  runbook: null
+  sop: null
+  decagon:
+    aop: null
+  zendesk_global:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/Unable%20to%20submit%20a%20ticket.md'
+    procedure: null
+    macros: []
+    articles: []
+  zendesk_usgov:
+    topic: 'https://gitlab.com/gitlab-support-readiness/zendesk-copilot/topics/-/blob/master/data/Support%20Portal/Ticket%20Management/Unable%20to%20submit%20a%20ticket.md'
+    procedure: null
+    macros: []
+    articles: []

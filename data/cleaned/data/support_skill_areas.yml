@@ -1,0 +1,177 @@
+# Support Team Skill Areas
+# This data file is used by the support-skill-areas shortcode
+# to dynamically generate the skill areas list on the support training page
+#
+# Guidelines:
+# 1. Each top-level key represents a skill area category
+# 2. Each category contains a list of product cateogires
+# 3. Leave a new line at the end of the file
+
+GitLab Duo:
+- Agent Observability
+- Agent Tools
+- AI Agents
+- AI Catalog Creation
+- AI Catalog Curation
+- AI Gateway Services
+- Chat Engine
+- Code Suggestions
+- DAP Code Review
+- DAP Event Platform
+- DAP Repository Flows
+- DAP Triggers
+- DataOps
+- Duo CLI
+- Duo Client SDK
+- Duo Developer
+- Duo Service Infra
+- External Agents
+- Flow Components
+- Health & Connectivity
+- JetBrains
+- MLOps
+- Model Evaluation Infra
+- Model Selection
+- Runner Execution
+- Semantic Code Search
+- VS Code
+- Web Chat
+Security:
+- AI Governance
+- API Security
+- Artifact Security
+- Attack Emulation
+- Code Quality
+- Code Testing and Coverage
+- Compliance Management
+- Dependency Firewall
+- Dependency Management
+- Fuzz Testing
+- GitLab Advisory Database
+- Insider Threat
+- Release Evidence
+- Secrets Management
+- Security Asset Inventories
+- Security Policy Management
+- Security Testing Configuration
+- Security Testing Integrations
+- Software Composition Analysis
+- Software Supply Chain Security
+- Vulnerability Management
+Security Scanning:
+- Container Scanning
+- DAST
+- SAST
+- Secret Detection
+Advanced Search:
+- Global Search
+Authentication:
+- System Access
+Import:
+- Importers
+GitLab Runner:
+- Fleet Visibility
+- GitLab Runner Core
+Backup/Restore:
+- Backup/Restore of GitLab instances
+Registry:
+- Container Registry
+- Helm Chart Registry
+- Package Registry
+- Virtual Registry
+- Artifact Registry
+Gitaly:
+- Cell
+- Git
+- Gitaly
+Database:
+- Database
+- Redis
+CI/CD:
+- Continuous Delivery
+- Deployment Management
+- Environment Management
+- Auto DevOps
+- Workspaces
+- Pipeline Composition
+- Review Apps
+- Mobile DevOps
+- Job Artifacts
+- Continuous Integration (CI)
+- Component Catalog
+License and Renewals:
+- Add-on Provisioning
+- Consumables Cost Management
+- CustomersDot and quote to cash integrations
+- Fulfillment Infradev
+- Plan Provisioning
+- Purchase
+- Seat Cost Management
+- Subscription Management
+- User Management
+GitLab Dedicated:
+- GitLab Dedicated
+- Switchboard
+- US Public Sector Services
+GitLab Installation and Administration:
+- Cloud Native Installation
+- Delivery
+- Settings
+- Omnibus Package
+Geo:
+- Disaster Recovery
+- Geo Replication
+- Instance Resiliency
+Code Management & Development:
+- Build
+- Code Review Workflow
+- GitLab CLI
+- GitLab Documentation Site
+- Merge Trains
+- Source Code Management
+Monitoring & Analytics:
+- Application Instrumentation
+- Custom Dashboards Foundation
+- DORA Metrics
+- DevOps Reports
+- Incident Management
+- Observability
+- On-call Schedule Management
+- Orbit
+- Product Analytics
+- Service Ping
+- Value Stream Management
+Release Management:
+- Feature Flags
+- Infrastructure as Code
+- Release Orchestration
+Groups and Projects:
+- Acquisition
+- Activation
+- Audit Events
+- Design Management
+- Groups & Projects
+- Markdown
+- Navigation
+- Notifications
+- OKR Management
+- Onboarding
+- Organization
+- Pages
+- Pajamas Design System
+- Permissions
+- Planning Views
+- Portfolio Management
+- Quality Management
+- Requirements Management
+- Service Desk
+- Team Planning
+- Text Editors
+- User Profile
+- Wiki
+GitLab.com (SaaS):
+- Capacity Planning
+- Error Budgets
+- GitLab Hosted Runners
+- Performance Tooling
+- Rate Limiting Framework
