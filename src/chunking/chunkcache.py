@@ -18,3 +18,4 @@ def cache_chunks(chunks):
 def retrieve_chunks(path):
     with path.open('r', encoding='utf-8') as file:
         chunks = [Document(**json.loads(line)) for line in file if line.strip()]
+        return chunks
