@@ -1,2 +1,6 @@
 data/handbook
 .env
+*.egg-info/
+data/db/
+data/qdrant/
+data/migrations/

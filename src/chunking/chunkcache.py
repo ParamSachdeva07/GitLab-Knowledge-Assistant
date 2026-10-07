@@ -15,7 +15,7 @@ def cache_chunks(chunks):
             json_data = json.dumps(record, ensure_ascii=False, default=str) + "\n"
             file.write(json_data)
 
-def retrieve_chunks(path):
+def retrieve_chunks(path=Path("../../data/chunks.jsonl")):
     with path.open('r', encoding='utf-8') as file:
         chunks = [Document(**json.loads(line)) for line in file if line.strip()]
         return chunks

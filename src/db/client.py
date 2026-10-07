@@ -1,9 +1,18 @@
-import chromadb
-from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
+from qdrant_client import QdrantClient, models
+from dotenv import load_dotenv
 
-client = chromadb.PersistentClient(path='../../data/db')
+load_dotenv()
 
-collection = client.get_or_create_collection(
-    name="gitlab_docs_v1", 
-    embedding_function=OpenAIEmbeddingFunction(model_name="text-embedding-3-small")
+client = QdrantClient(url="http://localhost:6333")
+collection = "gitlab_docs_v1"
+
+if not client.collection_exists(collection):
+    client.create_collection(
+        collection_name=collection,
+        vectors_config={
+            "dense": models.VectorParams(size=1536, distance=models.Distance.COSINE),
+        },
+        sparse_vectors_config={
+            "bm25": models.SparseVectorParams(modifier=models.Modifier.IDF),
+        },
     )
