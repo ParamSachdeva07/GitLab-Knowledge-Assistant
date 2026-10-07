@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_text_splitters import MarkdownTextSplitter
 import frontmatter
+from chunkcache import cache_chunks
 
 data_path = '../../data/cleaned/content'
 
@@ -10,6 +11,7 @@ documents = loader.load()
 
 for document in documents:
     yaml_metadata, content = frontmatter.parse(document.page_content)
+        
     document.page_content = content
     document.metadata = {
         **document.metadata,
@@ -19,3 +21,6 @@ for document in documents:
 splitter = MarkdownTextSplitter()
 
 chunks = splitter.split_documents(documents)
+
+cache_chunks(chunks)
+
