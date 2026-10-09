@@ -1,13 +1,16 @@
-import os
-from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
+
+from langfuse import observe
+from langfuse.openai import openai  # pyright: ignore[reportPrivateImportUsage]
 from src.retrieval.top_k_chunks import retrieve
-client = OpenAI(
-    # This is the default and can be omitted
-    api_key=os.environ.get("OPENAI_API_KEY"),
-)
 
-def getResponse(query, k = 10):
+
+client = openai.OpenAI()
+
+@observe(name="answer")
+def getResponse(query, k = 5):
     retrieval = retrieve(query, k=k)
     chunks = retrieval["chunks"]
 

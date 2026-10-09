@@ -4,9 +4,11 @@ from fastembed.rerank.cross_encoder import TextCrossEncoder
 from openai import OpenAI
 from qdrant_client import models
 from time import perf_counter
+from langfuse import observe
 
 embedding_client = OpenAI()
 
+@observe(name="semantic_search", capture_input=False, capture_output=False)
 def top_k_semantic(query, k = 20, collection = collection, client = client):
     res = embedding_client.embeddings.create(
         input=query,
@@ -23,6 +25,7 @@ def top_k_semantic(query, k = 20, collection = collection, client = client):
 
 bm25 = SparseTextEmbedding(model_name='Qdrant/bm25')
 
+@observe(name="bm25_search", capture_input=False, capture_output=False)
 def top_k_bm25(query, k=20, collection=collection, client=client):
     query_vector = list(bm25.query_embed(query))[0]
 
@@ -38,6 +41,7 @@ def top_k_bm25(query, k=20, collection=collection, client=client):
 
     return hits
 
+@observe(name="rrf", capture_input=False, capture_output=False)
 def reciprocal_rank_fusion(semantic_hits, bm25_hits, limit=10, constant=60):
     combined = {}
 
@@ -74,6 +78,8 @@ reranker = TextCrossEncoder(
 )
 
 
+
+@observe(name="reranking", capture_input=False, capture_output=False)
 def rerank(query, chunks, k=5):
     if not chunks:
         return []
@@ -102,7 +108,8 @@ def rerank(query, chunks, k=5):
     )[:k]
 
 
-def retrieve(query, k=10, candidate_k=20):
+@observe(name='retrieval', capture_output=False)
+def retrieve(query, k=5, candidate_k=8):
     t0 = perf_counter()
     semantic_hits = top_k_semantic(query, k=2 * candidate_k)
     t1 = perf_counter()
@@ -135,4 +142,3 @@ for hit in hits:
     print(hit.score)
     print(hit.payload['page_content'])
     print(hit.payload['metadata'])'''
-
