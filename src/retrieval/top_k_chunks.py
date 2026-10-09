@@ -1,15 +1,17 @@
 from src.db.client import client, collection
 from fastembed import SparseTextEmbedding
+from fastembed.rerank.cross_encoder import TextCrossEncoder
 from openai import OpenAI
 from qdrant_client import models
+from time import perf_counter
 
+embedding_client = OpenAI()
 
 def top_k_semantic(query, k = 20, collection = collection, client = client):
-    with OpenAI() as embedding_client:
-        res = embedding_client.embeddings.create(
-            input=query, 
-            model="text-embedding-3-small"
-            )
+    res = embedding_client.embeddings.create(
+        input=query,
+        model="text-embedding-3-small"
+    )
         
     hits = client.query_points(
         collection_name=collection, 
@@ -67,16 +69,65 @@ def reciprocal_rank_fusion(semantic_hits, bm25_hits, limit=10, constant=60):
 
     return ranked[:limit]
 
-def retrieve(query, k = 10):
-    semantic_hits = top_k_semantic(query, k = 2 * k)
-    bm25_hits = top_k_bm25(query, k = 2 * k)
+reranker = TextCrossEncoder(
+    model_name="Xenova/ms-marco-MiniLM-L-6-v2",
+)
 
-    reranked = reciprocal_rank_fusion(
-        semantic_hits=semantic_hits, 
-        bm25_hits=bm25_hits, 
-        limit = k
+
+def rerank(query, chunks, k=5):
+    if not chunks:
+        return []
+
+    documents = [
+        chunk["payload"]["page_content"]
+        for chunk in chunks
+    ]
+    scores = list(reranker.rerank(query, documents, batch_size=8))
+
+    scored_chunks = [
+        {
+            **chunk,
+            "rrf_rank": rank,
+            "cross_encoder_score": float(score),
+        }
+        for rank, (chunk, score) in enumerate(
+            zip(chunks, scores, strict=True), start=1
         )
-    return reranked
+    ]
+
+    return sorted(
+        scored_chunks,
+        key=lambda chunk: chunk["cross_encoder_score"],
+        reverse=True,
+    )[:k]
+
+
+def retrieve(query, k=10, candidate_k=20):
+    t0 = perf_counter()
+    semantic_hits = top_k_semantic(query, k=2 * candidate_k)
+    t1 = perf_counter()
+    bm25_hits = top_k_bm25(query, k=2 * candidate_k)
+    t2 = perf_counter()
+
+    candidates = reciprocal_rank_fusion(
+        semantic_hits=semantic_hits,
+        bm25_hits=bm25_hits,
+        limit=candidate_k,
+    )
+    t3 = perf_counter()
+    chunks = rerank(query, candidates, k=k)
+    t4 = perf_counter()
+
+    return {
+        "chunks": chunks,
+        "timings_ms": {
+            "semantic": (t1 - t0) * 1000,
+            "bm25": (t2 - t1) * 1000,
+            "rrf": (t3 - t2) * 1000,
+            "reranking": (t4 - t3) * 1000,
+            "retrieval_total": (t4 - t0) * 1000,
+        },
+    }
 
 '''hits = top_k_bm25('What is GitLab’s parental leave policy, and who is eligible?', k = 1)
 
@@ -84,6 +135,4 @@ for hit in hits:
     print(hit.score)
     print(hit.payload['page_content'])
     print(hit.payload['metadata'])'''
-
-
 

@@ -2,15 +2,14 @@ import os
 from openai import OpenAI
 
 from src.retrieval.top_k_chunks import retrieve
-from src.retrieval.reranker import rerank
 client = OpenAI(
     # This is the default and can be omitted
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
 def getResponse(query, k = 10):
-    candidates = retrieve(query, k=20)
-    chunks = rerank(query, candidates, k=k)
+    retrieval = retrieve(query, k=k)
+    chunks = retrieval["chunks"]
 
     context = "\n\n".join(
         f"[s{index + 1}]\n{chunk['payload']['page_content']}\n {chunk['payload']['metadata']}" for index, chunk in enumerate(chunks)
@@ -24,5 +23,6 @@ def getResponse(query, k = 10):
 
     return {
         'response' : response.output_text,
-        'chunks': chunks
+        'chunks': chunks,
+        'timings_ms': retrieval["timings_ms"],
             }
