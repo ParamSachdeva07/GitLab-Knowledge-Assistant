@@ -65,7 +65,7 @@ def retrieve(query, k = 10):
     reranked = reciprocal_rank_fusion(
         semantic_hits=semantic_hits, 
         bm25_hits=bm25_hits, 
-        limit = k
+        limit = 2 * k
         )
     return reranked
 
