@@ -39,15 +39,24 @@ def top_k_bm25(query, k=20, collection=collection, client=client):
 def reciprocal_rank_fusion(semantic_hits, bm25_hits, limit=10, constant=60):
     combined = {}
 
-    for hits in (semantic_hits, bm25_hits):
+    for method, hits in (
+        ("semantic", semantic_hits),
+        ("bm25", bm25_hits),
+    ):
         for rank, hit in enumerate(hits, start=1):
             if hit.id not in combined:
                 combined[hit.id] = {
                     "id": hit.id,
                     "payload": hit.payload,
+                    "semantic_score": None,
+                    "semantic_rank": None,
+                    "bm25_score": None,
+                    "bm25_rank": None,
                     "rrf_score": 0.0,
                 }
 
+            combined[hit.id][f"{method}_score"] = hit.score
+            combined[hit.id][f"{method}_rank"] = rank
             combined[hit.id]["rrf_score"] += 1 / (constant + rank)
 
     ranked = sorted(
@@ -65,7 +74,7 @@ def retrieve(query, k = 10):
     reranked = reciprocal_rank_fusion(
         semantic_hits=semantic_hits, 
         bm25_hits=bm25_hits, 
-        limit = 2 * k
+        limit = k
         )
     return reranked
 

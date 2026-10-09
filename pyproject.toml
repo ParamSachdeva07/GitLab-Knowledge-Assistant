@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gitlab-knowledge-assistant"
 version = "0.1.0"
+dependencies = ["fastembed==0.8.1"]
 
 [project.optional-dependencies]
 migration = ["chromadb==1.5.9", "qdrant-client==1.19.1", "fastembed==0.8.1"]
