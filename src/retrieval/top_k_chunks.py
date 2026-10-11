@@ -1,6 +1,7 @@
 from src.db.client import client, collection
 from fastembed import SparseTextEmbedding
 from fastembed.rerank.cross_encoder import TextCrossEncoder
+from fastembed.common.model_description import ModelSource
 from openai import OpenAI
 from qdrant_client import models
 from time import perf_counter
@@ -73,9 +74,12 @@ def reciprocal_rank_fusion(semantic_hits, bm25_hits, limit=10, constant=60):
 
     return ranked[:limit]
 
-reranker = TextCrossEncoder(
-    model_name="Xenova/ms-marco-MiniLM-L-6-v2",
+TextCrossEncoder.add_custom_model(
+    model="Xenova/ms-marco-TinyBERT-L-2-v2",
+    sources=ModelSource(hf="Xenova/ms-marco-TinyBERT-L-2-v2"),
+    model_file="onnx/model.onnx",
 )
+reranker = TextCrossEncoder(model_name="Xenova/ms-marco-TinyBERT-L-2-v2")
 
 
 
