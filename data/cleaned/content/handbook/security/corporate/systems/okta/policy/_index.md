@@ -1,3 +1,0 @@
----
-title: Okta Security Policies
----

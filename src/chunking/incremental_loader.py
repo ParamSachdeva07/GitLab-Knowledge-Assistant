@@ -252,48 +252,55 @@ def delete_sources(paths, pending_path=None):
 
 @observe(name="ingestion.add_sources", capture_input=False, capture_output=False)
 def add_sources(paths, pending_path=None):
-    """Index one file at a time, keeping failed files on the pending queue."""
-    summary = {"files_added": 0, "files_skipped": 0, "chunks_added": 0, "input_tokens": 0}
+    """Prepare all pending files; acknowledge them only after insertion succeeds."""
+    paths = [Path(path) for path in paths]
+    all_chunks = []
+    results = {}
+
     for path in paths:
-        path = Path(path)
         try:
-            # A retry may find partial inserts, or a completed insert whose
-            # acknowledgement was interrupted. Clear only this remaining file.
-            delete_sources([path])
-            if path.name.startswith("~$") or not filter_files([path], repo):
-                result = {"status": "skipped", "reason": "temporary file or rejected by file filter"}
-                summary["files_skipped"] += 1
-            else:
-                try:
-                    chunks = prepare_file(path)
-                except PDFConversionError as error:
-                    logger.warning("Skipping PDF: %s", error)
-                    result = {"status": "skipped", "reason": "pdf_conversion_failed", "error": str(error)}
-                    summary["files_skipped"] += 1
-                    finish_pending_file(pending_path, "remaining_additions", path, result)
-                    get_client().update_current_span(metadata=summary)
-                    continue
-                usage = add_chunks(chunks) if chunks else {"input_tokens": 0}
-                actual = client.count(collection, count_filter=source_filter_for([path]), exact=True).count
-                if actual != len(chunks):
-                    raise RuntimeError(f"Expected {len(chunks)} chunks, found {actual}")
-                result = {"status": "indexed", "chunks": len(chunks), "input_tokens": usage["input_tokens"]}
-                summary["files_added"] += 1
-                summary["chunks_added"] += len(chunks)
-                summary["input_tokens"] += usage["input_tokens"]
-            finish_pending_file(pending_path, "remaining_additions", path, result)
-            get_client().update_current_span(metadata=summary)
+            chunks = prepare_file(path)
+        except PDFConversionError as error:
+            logger.warning("Skipping PDF: %s", error)
+            results[path] = {"status": "skipped", "reason": "pdf_conversion_failed", "error": str(error)}
+            continue
         except Exception as error:
-            raise RuntimeError(f"Addition failed for {path}: {error}") from error
+            raise RuntimeError(f"Preparation failed for {path}: {error}") from error
+        all_chunks.extend(chunks)
+        results[path] = {"status": "indexed", "chunks": len(chunks)}
+
+    # Clear partial writes from an earlier attempt without acknowledging queues.
+    delete_sources(paths)
+    usage = add_chunks(all_chunks) if all_chunks else {"input_tokens": 0}
+
+    # Verify every source before acknowledging any successful additions.
+    for path, result in results.items():
+        if result["status"] == "indexed":
+            actual = client.count(collection, count_filter=source_filter_for([path]), exact=True).count
+            if actual != result["chunks"]:
+                raise RuntimeError(f"Verification failed for {path}: expected {result['chunks']} chunks, found {actual}")
+
+    for path, result in results.items():
+        finish_pending_file(pending_path, "remaining_additions", path, result)
+
+    summary = {
+        "files_added": sum(result["status"] == "indexed" for result in results.values()),
+        "files_skipped": sum(result["status"] == "skipped" for result in results.values()),
+        "chunks_added": len(all_chunks),
+        "input_tokens": usage["input_tokens"],
+    }
+    get_client().update_current_span(metadata=summary)
     return summary
 
 
 @observe(name="ingestion", capture_input=False, capture_output=True)
-def sync_changes():
+def sync_changes(full_rebuild=False):
+    """Resume pending work, or index all tracked files when full_rebuild is True."""
     state_dir = project_root / "data" / "ingestion_state"
     state_dir.mkdir(parents=True, exist_ok=True)
     pending_path = state_dir / "pending.json"
     checkpoint_path = state_dir / "checkpoint.json"
+
     run = {
         "run_id": str(uuid4()),
         "repository": str(repo),
@@ -313,29 +320,52 @@ def sync_changes():
 
         save_json(run_path, run)
         get_client().update_current_span(metadata=run)
+
         try:
             checkpoint = (
                 json.loads(checkpoint_path.read_text())
                 if checkpoint_path.exists() else {}
             )
-            report = sync_data(repo, checkpoint.get("indexed_commit"), pending_path)
+            report = sync_data(
+                repo, checkpoint.get("indexed_commit"), pending_path,
+                full_rebuild=full_rebuild,
+            )
             run.update({
+                "full_rebuild": report.get("full_rebuild", False),
                 "old_commit": report["old_commit"],
                 "target_commit": report["target_commit"],
                 "file_counts": report["file_counts"],
             })
+
             paths_to_delete = [Path(p) for p in report["remaining_deletions"]]
-            paths_to_add = [Path(p) for p in report["remaining_additions"]]
+            addition_candidates = [Path(p) for p in report["remaining_additions"]]
+            paths_to_add = [
+                path for path in filter_files(addition_candidates, repo)
+                if not path.name.startswith("~$")
+            ]
+            accepted_paths = set(paths_to_add)
+            skipped_paths = [path for path in addition_candidates if path not in accepted_paths]
+
+            for path in skipped_paths:
+                finish_pending_file(pending_path, "remaining_additions", path, {
+                    "status": "skipped",
+                    "reason": "temporary file or rejected by file filter",
+                })
+            run["files_skipped"] = len(skipped_paths)
 
             with get_client().start_as_current_observation(name="ingestion.delete_sources") as span:
                 run["chunks_deleted"] = delete_sources(paths_to_delete, pending_path)
                 span.update(output={"chunks_deleted": run["chunks_deleted"]})
-            run.update(add_sources(paths_to_add, pending_path))
+
+            addition_summary = add_sources(paths_to_add, pending_path)
+            addition_summary["files_skipped"] += len(skipped_paths)
+            run.update(addition_summary)
 
             pending = json.loads(pending_path.read_text())
             if pending["remaining_deletions"] or pending["remaining_additions"]:
                 raise RuntimeError("Pending files remain; checkpoint cannot advance")
             run["completed_files"] = pending["completed_files"]
+
             save_json(checkpoint_path, {
                 "indexed_commit": report["target_commit"],
                 "run_id": run["run_id"],
@@ -343,6 +373,7 @@ def sync_changes():
             })
             pending_path.unlink(missing_ok=True)
             run["status"] = "succeeded"
+
         except Exception as error:
             run.update(status="failed", error_type=type(error).__name__, error=str(error))
             raise

@@ -34,7 +34,7 @@ def save_json(path, value):
 
 
 @observe(name="ingestion.git_sync", capture_input=False, capture_output=False)
-def sync_data(repo, indexed_commit=None, pending_path=None):
+def sync_data(repo, indexed_commit=None, pending_path=None, full_rebuild=False):
     if git(repo, "status", "--porcelain"):
         raise RuntimeError("Repository has local changes; stop before syncing")
 
@@ -44,6 +44,26 @@ def sync_data(repo, indexed_commit=None, pending_path=None):
         report = json.loads(pending_path.read_text(encoding="utf-8"))
         if current_commit not in {report["checkout_commit"], report["target_commit"]}:
             raise RuntimeError("Checkout moved while an ingestion run was pending")
+    elif full_rebuild:
+        # Index the current committed checkout without fetching upstream.
+        tracked_paths = subprocess.run(
+            ["git", "ls-tree", "-r", "--name-only", "-z", current_commit],
+            cwd=repo, capture_output=True, text=True, check=True, timeout=120,
+        ).stdout
+        paths = [repo / path for path in tracked_paths.split("\0") if path]
+        report = {
+            "full_rebuild": True,
+            "old_commit": indexed_commit,
+            "checkout_commit": current_commit,
+            "target_commit": current_commit,
+            "changes": {"additions": paths, "modifications": [], "deletions": []},
+            "file_counts": {"added": len(paths), "modified": 0, "deleted": 0},
+            "remaining_deletions": [],
+            "remaining_additions": paths,
+            "completed_files": {},
+        }
+        if pending_path is not None:
+            save_json(pending_path, report)
     else:
         git(repo, "fetch", "origin")
         target_commit = git(repo, "rev-parse", "origin/main")

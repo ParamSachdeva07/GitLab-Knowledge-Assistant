@@ -1,10 +1,12 @@
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_text_splitters import MarkdownTextSplitter
 import frontmatter
-from src.chunking.chunkcache import cache_chunks
 from src.db.client import client, collection
 import json
-from uuid import uuid4
+from uuid import uuid5, NAMESPACE_URL
+from pathlib import Path
+from collections import defaultdict
+from functools import lru_cache
 from openai import OpenAI
 from fastembed import SparseTextEmbedding
 from qdrant_client import models
@@ -36,13 +38,38 @@ def load_directory(data_path = '../../data/handbook'):
     chunks = splitter.split_documents(documents)
     return chunks
 
-#cache_chunks(chunks)
+def chunk_ids(chunks, repo_root=None):
+    """Stable IDs for source, content and location; preserve repeated chunks."""
+    repo_root = repo_root or Path(__file__).resolve().parents[2] / "data" / "handbook"
+    occurrences = defaultdict(int)
+    ids = []
+    for chunk in chunks:
+        source = Path(chunk.metadata["source"]).resolve().relative_to(repo_root.resolve()).as_posix()
+        identity = json.dumps({
+            "repository": "gitlab-handbook",
+            "source": source,
+            "content": chunk.page_content,
+            "location": {key: chunk.metadata[key] for key in
+                         ("page_number", "sheet", "row_start", "row_end")
+                         if key in chunk.metadata},
+        }, sort_keys=True, ensure_ascii=False)
+        occurrence = occurrences[identity]
+        occurrences[identity] += 1
+        ids.append(str(uuid5(NAMESPACE_URL, json.dumps([identity, occurrence]))))
+    return ids
+
+
+@lru_cache(maxsize=1)
+def get_bm25_model():
+    return SparseTextEmbedding(model_name="Qdrant/bm25")
+
 
 def add_chunks(chunks, collection = collection, batch_size=100):
     if batch_size < 1:
         raise ValueError("batch_size must be greater than zero")
 
-    bm25 = SparseTextEmbedding(model_name="Qdrant/bm25")
+    ids = chunk_ids(chunks)
+    bm25 = get_bm25_model()
     total_input_tokens = 0
     with OpenAI() as embedding_client:
         for start in range(0, len(chunks), batch_size):
@@ -60,7 +87,7 @@ def add_chunks(chunks, collection = collection, batch_size=100):
 
             points = [
                 models.PointStruct(
-                    id=str(uuid4()),
+                    id=chunk_id,
                     vector={
                         "dense": dense.embedding,
                         "bm25": models.SparseVector(
@@ -69,7 +96,9 @@ def add_chunks(chunks, collection = collection, batch_size=100):
                     },
                     payload={"page_content": chunk.page_content, "metadata": chunk.metadata},
                 )
-                for chunk, dense, sparse in zip(batch, dense_vectors, sparse_vectors, strict=True)
+                for chunk_id, chunk, dense, sparse in zip(
+                    ids[start:start + batch_size], batch, dense_vectors, sparse_vectors, strict=True,
+                )
             ]
             client.upsert(collection_name=collection, points=points, wait=True)
 
