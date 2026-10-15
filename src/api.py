@@ -1,14 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, BackgroundTasks, HTTPException, Request
 from pydantic import BaseModel, Field
+import asyncio
 
 from src.retrieval.top_k_chunks import retrieve
 from src.retrieval.response import getResponse
+from src.chunking.incremental_loader import sync_changes
 
 import json
 import logging
 from uuid import uuid4
 
 app = FastAPI()
+
+PROJECT_ID = 123456
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -57,3 +61,33 @@ def answer(request: Answer):
         'results': results
         }
 
+
+def run_sync():
+    try:
+        sync_changes()
+    except Exception:
+        logger.exception("Webhook-triggered ingestion failed")
+
+
+@app.post('/webhooks/gitlab')
+async def gitlab_webhook(
+    request: Request,
+    background_tasks: BackgroundTasks
+):
+    event = request.headers.get("X-Gitlab-Event")
+
+    if event != "Push Hook":
+        return {"status": "ignored", "reason": "not a push"}
+
+    payload = await request.json()
+
+    if payload.get("project", {}).get("id") != PROJECT_ID:
+        raise HTTPException(status_code=403, detail="Unexpected proejct")
+
+    if payload.get("ref") != "refs/heads/main":
+        return {"status": "ignored", "reason": "not main"}
+
+    background_tasks.add_task(run_sync)
+
+    return {"status": "accepted"}
+        

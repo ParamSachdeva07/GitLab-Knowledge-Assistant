@@ -9,36 +9,49 @@ folders = ["content", "data", "static/pdfs", 'static/files/legal']
 allowed_types = ['.md', '.pdf', '.xlsx', '.yaml', '.yml']
 paths = []
 
-#adds all possible paths existing in the data repository
-for folder in folders:
-    folder = source / folder
-    paths.extend(folder.rglob("*"))
-
 files = []
-for path in paths:
-    if not path.is_file(): #removes paths that do not point towards a file
-        continue
 
-    if path.suffix.lower() not in allowed_types: #removes unsupported files
-        continue
+def filter_files(paths, repo):
+    repo = Path(repo).resolve()
+    files = []
+    for path in paths:
+        path = Path(path)
+        if not path.is_file(): #removes paths that do not point towards a file
+            continue
 
-    relative_path = path.relative_to(source) #makes all paths relative
+        if path.suffix.lower() not in allowed_types: #removes unsupported files
+            continue
 
-    #removes all hidden folders / documents (starting w ".")
-    if any(part.startswith(".") for part in relative_path.parts):
-        continue
-    files.append(relative_path)
+        try:
+            relative_path = path.resolve().relative_to(repo)
+        except ValueError:
+            continue #removes files outside the repository
+
+        #checks only folders / documents inside the repository
+        if any(part.startswith(".") for part in relative_path.parts):
+            continue
+
+        if not any(relative_path.is_relative_to(Path(folder)) for folder in folders):
+            continue
+        files.append(path)
+
+    return files
 
 #copies files into target folder, filtering unwanted junk
 def copy_files():
 
     for file in files:
-        source_file = source / file
-        destination_file = destination / file
+        source_file = file
+        relative_path = file.relative_to(source)
+        destination_file = destination / relative_path
 
         destination_file.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source_file, destination_file)
 
     return True
 
-print(copy_files())
+if __name__ == "__main__":
+    for folder in folders:
+        paths.extend((source / folder).rglob("*"))
+    files = filter_files(paths, source)
+    print(copy_files())

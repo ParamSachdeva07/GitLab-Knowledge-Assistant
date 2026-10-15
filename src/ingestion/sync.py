@@ -1,121 +1,89 @@
 import json
 import subprocess
 from pathlib import Path
+from langfuse import observe
 
-repo = Path('../../data/handbook')
-
-def get_current_commit():
-
-    local_result = subprocess.run(
-            ['git', 'rev-parse', 'HEAD'],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True
-        )
-    
-    return local_result.stdout.strip()
+project_root = Path(__file__).resolve().parents[2]
+repo = project_root / "data" / "handbook"
 
 
-def get_remote_commit():
-    remote_result = subprocess.run(
-            ['git', 'ls-remote', '--exit-code', 'origin', 'refs/heads/main'],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True,
-            timeout=30
-        )
+def git(repo, *args):
+    return subprocess.run(
+        ["git", *args], cwd=repo, capture_output=True,
+        text=True, check=True, timeout=120,
+    ).stdout.strip()
 
-    return remote_result.stdout.split()[0]
-    
-def has_remote_changed():
 
-    local_hash = get_current_commit()
-    remote_hash = get_remote_commit()
-    return local_hash == remote_hash
+def get_current_commit(repo=repo):
+    return git(repo, "rev-parse", "HEAD")
 
-def sync_data(repo):
 
-    current_commit = get_current_commit()
+def get_remote_commit(repo=repo):
+    return git(repo, "ls-remote", "--exit-code", "origin", "refs/heads/main").split()[0]
 
-    if has_remote_changed():
-        subprocess.run(
-            ['git', 'fetch', 'origin'],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True
-        )
 
-        target_commit = subprocess.run(
-            ["git", "rev-parse", "origin/main"],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True,
-        ).stdout.strip()
+def has_remote_changed(repo=repo):
+    return get_current_commit(repo) != get_remote_commit(repo)
 
-        diff_result = subprocess.run(
-            [
-                "git", "diff",
-                "--name-status",
-                "--no-renames",
-                "-z",
-                current_commit,
-                target_commit,
-                "--",
-            ],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True,
-        )
 
-        changes = {
-            "added": [],
-            "modified": [],
-            "deleted": [],
-        }
+def save_json(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(".tmp")
+    temporary.write_text(json.dumps(value, default=str, indent=2), encoding="utf-8")
+    temporary.replace(path)
 
-        fields = diff_result.stdout.split("\0")
 
+@observe(name="ingestion.git_sync", capture_input=False, capture_output=False)
+def sync_data(repo, indexed_commit=None, pending_path=None):
+    if git(repo, "status", "--porcelain"):
+        raise RuntimeError("Repository has local changes; stop before syncing")
+
+    current_commit = get_current_commit(repo)
+    if pending_path is not None and pending_path.exists():
+        # Finish the saved target before considering newer upstream commits.
+        report = json.loads(pending_path.read_text(encoding="utf-8"))
+        if current_commit not in {report["checkout_commit"], report["target_commit"]}:
+            raise RuntimeError("Checkout moved while an ingestion run was pending")
+    else:
+        git(repo, "fetch", "origin")
+        target_commit = git(repo, "rev-parse", "origin/main")
+        git(repo, "merge-base", "--is-ancestor", current_commit, target_commit)
+        old_commit = indexed_commit or current_commit
+        fields = git(
+            repo, "diff", "--name-status", "--no-renames", "-z",
+            old_commit, target_commit, "--",
+        ).split("\0")
+        changes = {"additions": [], "modifications": [], "deletions": []}
+        counts = {"added": 0, "modified": 0, "deleted": 0}
         for i in range(0, len(fields) - 1, 2):
-            status = fields[i]
-            path = fields[i + 1]
-
+            status, relative_path = fields[i:i + 2]
             if status == "A":
-                changes["added"].append(path)
+                counts["added"] += 1
             elif status in {"M", "T"}:
-                changes["modified"].append(path)
+                counts["modified"] += 1
             elif status == "D":
-                changes["deleted"].append(path)
+                counts["deleted"] += 1
             else:
-                raise RuntimeError(f"Unexpected status: {status} for {path}")
+                raise RuntimeError(f"Unexpected status: {status} for {relative_path}")
+            key = "deletions" if status == "D" else "additions" if status == "A" else "modifications"
+            changes[key].append(repo / relative_path)
 
-        subprocess.run(
-            ["git", "merge", "--ff-only", target_commit],
-            cwd=repo,
-            capture_output=True,
-            text=True,
-            check=True,
-        )
+        report = {
+            "old_commit": old_commit,
+            "checkout_commit": current_commit,
+            "target_commit": target_commit,
+            "changes": changes,
+            "file_counts": counts,
+            "remaining_deletions": changes["deletions"] + changes["modifications"],
+            "remaining_additions": changes["additions"] + changes["modifications"],
+            "completed_files": {},
+        }
+        # Persist before moving Git, so a crash after merging is recoverable.
+        if pending_path is not None:
+            save_json(pending_path, report)
 
-        paths_to_load = [
-            repo / relative_path
-            for relative_path in changes["added"] + changes["modified"]
-        ]
-
-        deleted_absolute_paths = [
-            repo / relative_path
-            for relative_path in changes["deleted"]
-        ]
-
-        return {
-        "old_commit": current_commit,
-        "target_commit": target_commit,
-        "changes": {
-            "changes": paths_to_load,
-            "deletions": deleted_absolute_paths
-            }
-    }
+    git(repo, "merge-base", "--is-ancestor", current_commit, report["target_commit"])
+    git(repo, "merge", "--ff-only", report["target_commit"])
+    for key in ("additions", "modifications", "deletions"):
+        report["changes"][key] = [Path(path) for path in report["changes"][key]]
+    return report
