@@ -9,7 +9,7 @@
 
 Ask questions about GitLab policies, processes, and internal documentation through a retrieval-augmented generation (RAG) API. The assistant combines semantic search, BM25 keyword search, and cross-encoder reranking to supply relevant handbook content to an OpenAI model, then returns an answer with source markers and retrieval diagnostics.
 
-[Overview](#overview) · [Features](#-key-features) · [Architecture](#-system-architecture) · [Setup](#-installation--setup) · [API](#-api-usage) · [Syncing](#-keeping-the-knowledge-base-current)
+[Overview](#overview) · [Architecture](#-system-architecture) · [Design decisions](#design-decisions-and-project-evolution) · [Evaluation](#evaluation-and-what-i-learned) · [Setup](#-installation--setup) · [Deployment](#deployment-status) · [API](#-api-usage)
 
 ---
 
@@ -24,6 +24,8 @@ Example questions:
 - What is GitLab's parental leave policy, and who is eligible?
 - How does GitLab run asynchronous meetings?
 - What are the steps in the employee onboarding process?
+
+> **Project status:** A working local RAG API with incremental ingestion and tracing. Qdrant runs in Docker; API containerization and public-service hardening are still planned.
 
 ## ✨ Key Features
 
@@ -89,6 +91,137 @@ With the default settings, each question follows this sequence:
 4. Rerank the candidates with the cross-encoder and select up to **5 chunks**.
 5. Pass the question, selected chunks, and metadata to the answer model.
 6. Return the generated text, supporting chunks, and retrieval timings.
+
+### Ingestion flow and recovery
+
+The index has a different lifecycle from an API request. It is built once, then updated as the handbook changes:
+
+```text
+Initial indexing                         Incremental indexing
+Tracked files at current commit          Diff indexed commit → origin/main
+              \                           /
+               Persist pending file lists
+                          |
+              Filter additions by path and type
+                          |
+              Delete removed / modified sources
+                          |
+              Parse and chunk accepted additions
+                          |
+              Clear partial writes for those sources
+                          |
+              Embed and upsert in batches of 100
+                          |
+              Verify per-source chunk counts
+                          |
+              Acknowledge files → save checkpoint
+```
+
+A modified file appears in both the deletion and addition lists. Deletions are not passed through an existence filter: a deleted file no longer exists on disk, but its old chunks still need removing from Qdrant.
+
+The Git checkout and the indexing checkpoint are separate. Moving the checkout to a new commit does not mean its content has reached the database. The checkpoint advances only after all pending items are acknowledged, including files deliberately skipped by filtering or PDF conversion policy.
+
+### What a Qdrant point contains
+
+Each chunk is stored as one point with a deterministic UUID, two named vectors, and a payload:
+
+```text
+point
+├── id: UUID derived from source + content + location + occurrence
+├── vector
+│   ├── dense: 1,536 floating-point values
+│   └── bm25: sparse indices and weights
+└── payload
+    ├── page_content: chunk text
+    └── metadata: source, frontmatter, page/sheet/row information
+```
+
+Dense and sparse retrieval return the same point IDs, which makes merging their results straightforward. Nested metadata stays in the payload; it is not itself a vector. Embeddings are generated from `page_content`, while the answer prompt receives both text and metadata.
+
+## Design Decisions and Project Evolution
+
+This project grew from a Markdown ingestion script into a hybrid retrieval API. Each change addressed a concrete limitation encountered while building and testing it.
+
+### From Chroma to Qdrant
+
+I started with Chroma for storing dense embeddings. When I added BM25, I wanted dense and sparse representations attached to the same chunk rather than maintaining a separate keyword index and manually coordinating identifiers.
+
+Qdrant's named vectors let each point hold both representations, with an IDF modifier configured for the BM25 vector. The existing dense embeddings were transferred rather than regenerated just to change databases. The project then moved from local Qdrant storage to a Docker-hosted Qdrant server, separating database storage from the Python process.
+
+Qdrant also supports nested payloads, so I removed the metadata-flattening step introduced for the earlier storage design. Values are still normalized through JSON serialization, with unsupported objects such as dates converted to strings.
+
+### Why semantic search, BM25, and RRF?
+
+Handbook questions can describe an idea without using the document's wording, but they can also contain exact acronyms, policy names, and technical commands. Semantic search and lexical retrieval provide complementary candidate lists.
+
+I implemented fusion explicitly to understand and inspect how the two methods interact. Their raw scores have different meanings, so RRF combines **positions** instead:
+
+```text
+RRF(chunk) = sum(1 / (60 + rank_in_result_list))
+```
+
+Ranks start at one. A chunk found by both retrievers receives contributions from both lists. The response retains the original scores and ranks alongside the fused score, allowing retrieval decisions to be inspected later. These scores are ranking signals, not calibrated confidence probabilities.
+
+### Why a cross-encoder after fusion?
+
+RRF can promote a chunk because both retrievers ranked it reasonably well, without directly judging how well its passage answers the question. A cross-encoder evaluates the query and passage together to refine that ordering.
+
+I tried reranker alternatives and smaller candidate pools while measuring latency and inspecting the returned chunks. The current implementation uses FastEmbed's ONNX-backed TinyBERT cross-encoder, with **8 fused candidates and 5 final chunks**. This limits reranking work and fits the configured batch size of eight; it is an engineering compromise, not a claim that eight is universally optimal.
+
+I also tested truncating reranker input to 500 and 1,000 characters. The observed latency benefit was small enough that I removed the explicit character cutoff. The current code passes the whole passage to the reranker, although the model still has its own token-length limit.
+
+Semantic and BM25 searches currently run sequentially. Reused query clients and loaded models avoid repeated initialization, but cold startup and concurrent traffic need separate measurement.
+
+### Why format-specific parsing?
+
+A single text-loading strategy loses useful structure across document formats:
+
+| Source | Choice | Reason and tradeoff |
+| --- | --- | --- |
+| Markdown | Parse frontmatter into metadata, then split the body | Keeps descriptive fields out of repeated passage text. Invalid or unsupported frontmatter is flagged and the original text is preserved. |
+| YAML | Treat the file as text | Provides a simple baseline without inventing a schema for every YAML document. |
+| PDF | Docling conversion followed by page-level Markdown splitting | Retains page numbers for source attribution; page boundaries can separate related content. Failed conversions are logged and skipped. |
+| Excel | Group whole rows, repeat first-row headers, retain sheet/row metadata | Keeps column meanings alongside values and avoids returning only a tiny isolated row. Assumes the first row contains headers. |
+
+Excel chunks target at most ten rows and 4,000 characters, but a single oversized row is retained whole. Markdown and YAML splitters currently use library defaults rather than an explicitly tuned shared chunk size.
+
+### Why filter the repository directly?
+
+The original workflow copied accepted files into a separate cleaned directory. Once additions, modifications, and deletions mattered, that introduced another copy of the corpus to keep synchronized.
+
+The active sync pipeline now filters paths from the handbook checkout directly. The same filtering and preparation functions serve initial indexing and incremental updates. The older Markdown loader and copy helper remain in the codebase, but are not required for this workflow.
+
+### Why deterministic IDs and delete-first updates?
+
+Random UUIDs make repeated insertion produce new points. The current ID function uses the repository-relative source, chunk text, location metadata, and occurrence number to generate UUID5 identifiers. Repeating the same ordered input produces the same IDs, including distinct IDs for repeated identical chunks within that input.
+
+Stable IDs make upserts repeatable, but they do not remove obsolete chunks: changed text produces a new ID. The sync therefore deletes old source chunks and inserts their replacement set.
+
+I chose a direct delete-first workflow to keep the update logic understandable. Pending additions are prepared together and passed to `add_chunks()` once; that function still sends batches of 100. Source counts are verified before successful additions are acknowledged. A retry clears partial writes and repeats the pending work.
+
+**Tradeoff:** this is recoverable processing, not an atomic index replacement. Readers can temporarily see missing or partially rebuilt sources, and retries can repeat paid embedding calls. Preparing all pending chunks together also uses memory proportional to the pending content. Versioned collections or smaller preparation batches are possible next steps.
+
+### Why checkpoints as well as Langfuse?
+
+Tracing explains what happened during a run; persistent state determines what needs to happen next.
+
+- `pending.json` records the target commit and unfinished additions/deletions.
+- `checkpoint.json` records the last completed indexing target.
+- A local OS file lock prevents overlapping sync runs sharing that lock file.
+- Run reports record outcomes, including skipped files and failures.
+- Langfuse observations expose retrieval stages, generation, Git sync, source additions, and PDF conversion.
+
+A webhook schedules the existing sync function rather than implementing another ingestion path. FastAPI background tasks are currently in-process: the pending state supports recovery when sync is invoked again, but it is not a durable job queue or an automatic retry scheduler.
+
+## Evaluation and What I Learned
+
+During development, I tested focused questions and questions requiring several supporting passages, inspecting both retrieved chunks and warmed-up latency. I compared candidate counts, rerankers, and passage truncation rather than optimizing latency alone.
+
+The main finding was that focused questions were easier than broad, multi-part questions. A result could be topically relevant yet fail to cover all requested facts. That motivates testing larger candidate pools and query decomposition against a fixed reference set.
+
+Useful evaluation signals include precision@k, recall@k, per-question F1, MAP@k, and coverage of the distinct facts needed to answer. Precision and recall answer different questions: dividing relevant hits by five measures precision@5, not recall over all reference chunks. Exact-ID matching can also miss alternative passages that contain the same evidence.
+
+The earlier evaluation scripts and results are not included in this checkout, so this README does not claim a reproducible performance benchmark. A versioned, independently reviewed reference set and concurrent-load testing remain follow-up work. Retrieval timings returned by the API include reranking, but exclude answer generation.
 
 ## 🛠️ Tech Stack
 
@@ -197,7 +330,7 @@ PY
 
 This scans supported tracked files at the current checkout and establishes the indexed-commit checkpoint. The first index can take time and consumes OpenAI embedding tokens. FastEmbed and Docling may download model assets on first use.
 
-Use `full_rebuild=True` to bootstrap a new collection: an ordinary sync on a fresh checkout only considers changes between that checkout and upstream. A pending run is resumed before a new scan begins.
+A full scan does not reset the collection or remove stale sources absent from the current scan. Use `full_rebuild=True` to bootstrap a new collection: an ordinary sync on a fresh checkout only considers changes between that checkout and upstream. A pending run is resumed before a new scan begins.
 
 ### 7. Start the API
 
@@ -206,6 +339,21 @@ python -m uvicorn src.api:app --reload
 ```
 
 Open the interactive API documentation at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+
+## Deployment Status
+
+The current supported workflow runs the API as a Python process and Qdrant in Docker. There is no application Dockerfile or Compose deployment committed yet.
+
+The intended VPS layout is an HTTPS reverse proxy in front of an API container, with Qdrant on a private container network. Database storage, the handbook checkout, and ingestion state need persistent mounts. A Qdrant snapshot can transfer existing vectors and payloads without re-embedding the corpus.
+
+Before moving to that layout:
+
+- Make the hardcoded Qdrant address configurable; `localhost` inside the API container would not reach a separate Qdrant container.
+- Normalize source identifiers. Stored absolute filesystem paths are not portable between a laptop and a container, and deletion filters must match the migrated payloads.
+- Consolidate and pin runtime dependencies, then verify a clean Linux build.
+- Add authentication, webhook verification, usage limits, explicit timeout policies, readiness checks, and a tested backup/restore procedure before public exposure.
+
+The local commands above are development instructions, not a claim of a hardened public deployment. Source markers are requested by the generation prompt; citation correctness and answer faithfulness are not automatically verified.
 
 ## 💬 API Usage
 
@@ -331,7 +479,7 @@ The configured answer model must be available to your OpenAI account. If changin
 ## 🧭 Future Improvements
 
 - Consolidate runtime dependencies and configuration into the project metadata and environment settings.
-- Add retrieval and answer-quality evaluation against a curated handbook question set.
+- Commit a versioned retrieval evaluation set, add answer-quality checks, and measure concurrent-load performance.
 - Add webhook secret validation, API authentication, and a durable ingestion job queue.
 - Add automated tests and a CI workflow.
 - Add a chat interface with clickable source references.
